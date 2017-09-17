@@ -7,7 +7,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint",
+    "lint": "tslint \"src/**/*.ts\" --project src/tsconfig.json --type-check && tslint \"e2e/**/*.ts\" --project e2e/tsconfig.json --type-check",
     "e2e": "ng e2e"
   },
   "private": true,
@@ -21,7 +21,9 @@
     "@angular/platform-browser": "^4.2.4",
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
+    "angularfire2": "^2.0.0-beta.7",
     "core-js": "^2.4.1",
+    "firebase": "^4.3.1",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },
