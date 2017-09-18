@@ -1,6 +1,8 @@
 import { Component, OnInit, HostBinding } from '@angular/core';
-import { AngularFire, AuthProviders, AuthMethods } from 'angularfire2';
-import { Router } from '@angular/router';
+import { AngularFireAuth } from 'angularfire2/auth';
+import { Router } from "@angular/router";
+import * as firebase from 'firebase';
+
 import { moveIn } from '../router.animations';
 
 @Component({
@@ -13,8 +15,8 @@ import { moveIn } from '../router.animations';
 export class LoginComponent implements OnInit {
 
   error: any;
-  constructor(public af: AngularFire,private router: Router) {
-      this.af.auth.subscribe(auth => { 
+  constructor(public afAuth: AngularFireAuth,private router: Router) {
+      this.afAuth.authState.subscribe(auth => { 
       if(auth) {
         this.router.navigateByUrl('/members');
       }
@@ -22,10 +24,34 @@ export class LoginComponent implements OnInit {
   }
 
   loginFb() {
-    this.af.auth.login({
-      provider: AuthProviders.Facebook,
-      method: AuthMethods.Popup,
-    }).then(
+    const provider = new firebase.auth.FacebookAuthProvider();
+    this.socialSignIn(provider);
+    // this.afAuth.auth.signInWithPopup(provider)
+    // .then(
+    //     (success) => {
+    //     this.router.navigate(['/members']);
+    //   }).catch(
+    //     (err) => {
+    //     this.error = err;
+    //   })
+  }
+
+  loginGoogle() {
+    const provider = new firebase.auth.GoogleAuthProvider()
+    this.socialSignIn(provider);
+    // this.afAuth.auth.signInWithPopup(provider)
+    //  .then(
+    //     (success) => {
+    //     this.router.navigate(['/members']);
+    //   }).catch(
+    //     (err) => {
+    //     this.error = err;
+    //   })
+  }
+
+  private socialSignIn(provider) {
+    return this.afAuth.auth.signInWithPopup(provider)
+     .then(
         (success) => {
         this.router.navigate(['/members']);
       }).catch(
@@ -34,18 +60,6 @@ export class LoginComponent implements OnInit {
       })
   }
 
-  loginGoogle() {
-    this.af.auth.login({
-      provider: AuthProviders.Google,
-      method: AuthMethods.Popup,
-    }).then(
-        (success) => {
-        this.router.navigate(['/members']);
-      }).catch(
-        (err) => {
-        this.error = err;
-      })
-  }
 
   ngOnInit() {
   }
