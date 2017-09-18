@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuthModule } from 'angularfire2/auth';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
-import { EmailComponent } from './email/email.component';
-import { SignupComponent } from './signup/signup.component';
-import { MembersComponent } from './members/members.component';
+//Application Modules
+import { LoginModule } from './login/login.module';
+import { EmailModule } from './email/email.module';
+import { SignupModule } from './signup/signup.module';
+import { MembersModule } from './members/members.module';
 
 import { AuthGuard } from './services/auth.service';
 import { routes } from './app.routes';
@@ -26,19 +28,16 @@ export const firebaseConfig = {
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LoginComponent,
-    EmailComponent,
-    SignupComponent,
-    MembersComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    RouterModule.forRoot(routes),
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireAuthModule,
-    routes
+    LoginModule,EmailModule,SignupModule,MembersModule
   ],
   providers: [AuthGuard],
   bootstrap: [AppComponent]
