@@ -2,7 +2,7 @@ import { Component, OnInit, HostBinding } from '@angular/core';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { Router } from "@angular/router";
 import * as firebase from 'firebase';
-
+import * as $ from 'jquery';
 import { moveIn } from '../router.animations';
 
 @Component({
@@ -60,8 +60,29 @@ export class LoginComponent implements OnInit {
       })
   }
 
+  showLoginForm(){
+      $('#loginModal .registerBox').fadeOut('fast',function(){
+          $('.loginBox').fadeIn('fast');
+          $('.register-footer').fadeOut('fast',function(){
+              $('.login-footer').fadeIn('fast');    
+          });
+          
+          $('.modal-title').html('Login with');
+      });       
+       $('.error').removeClass('alert alert-danger').html(''); 
+  }
+
+  openLoginModal(){
+      this.showLoginForm();
+      setTimeout(function(){
+          $('#loginModal').modal('show');   
+      }, 230);
+      
+  }
+
 
   ngOnInit() {
+    this.openLoginModal();
   }
 
 }
