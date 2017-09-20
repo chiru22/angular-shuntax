@@ -75,7 +75,7 @@ export class LoginComponent implements OnInit {
   openLoginModal(){
       this.showLoginForm();
       setTimeout(function(){
-          $('#loginModal').modal('show');   
+          (<any>$('#loginModal')).modal('show');   
       }, 230);
       
   }

@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 //Application Modules
+import { HomeModule } from './home/home.module';
 import { LoginModule } from './login/login.module';
 import { EmailModule } from './email/email.module';
 import { SignupModule } from './signup/signup.module';
@@ -37,7 +38,7 @@ export const firebaseConfig = {
     RouterModule.forRoot(routes),
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireAuthModule,
-    LoginModule,EmailModule,SignupModule,MembersModule
+    HomeModule,LoginModule,EmailModule,SignupModule,MembersModule
   ],
   providers: [AuthGuard],
   bootstrap: [AppComponent]

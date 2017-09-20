@@ -17,6 +17,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 // ]
 
+import { HomeRoutes } from './home/index';
 import { LoginRoutes } from './login/index';
 import { SignupRoutes } from './signup/index';
 import { EmailRoutes } from './email/index';
@@ -24,6 +25,7 @@ import { MembersRoutes } from './members/index';
 
 
 export const routes: Routes = [
+    ...HomeRoutes,
     ...LoginRoutes,
     ...SignupRoutes,
     ...EmailRoutes,
