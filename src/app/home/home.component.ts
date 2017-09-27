@@ -2,11 +2,13 @@ import { Component, OnInit, HostBinding } from '@angular/core';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { Router } from "@angular/router";
 import * as firebase from 'firebase';
+import { fallIn } from '../router.animations';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+  animations: [fallIn()],
 })
 export class HomeComponent implements OnInit {
 
@@ -43,6 +45,22 @@ export class HomeComponent implements OnInit {
     //     (err) => {
     //     this.error = err;
     //   })
+  }
+
+  onSubmitLogin(formData) {
+    if(formData.valid) {
+      console.log(formData.value);
+     this.afAuth.auth.signInWithEmailAndPassword(formData.value.email,formData.value.password)
+     .then(
+        (success) => {
+        console.log(success);
+        // this.router.navigate(['/members']);
+      }).catch(
+        (err) => {
+        console.log(err);
+        this.error = err;
+      })
+    }
   }
 
   private socialSignIn(provider) {
@@ -88,6 +106,9 @@ export class HomeComponent implements OnInit {
          
   }
 
+  close(){
+    console.log('test')
+  }
 
   ngOnInit() {
   }
