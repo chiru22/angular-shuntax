@@ -381,3 +381,9497 @@ body {
     border-color: #00A4E4;
     color:  #00A4E4;
 }
+
+//BANKBAZZAR
+
+.prevarrow {
+    animation: .3s ease 0s normal running spaceOutLeft;
+    -webkit-animation: .3s ease 0s normal running spaceOutLeft
+}
+
+@-webkit-keyframes spaceOutLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform-origin: 0 50%;
+        -webkit-transform: scale(.2) translate(-200%,0%)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform-origin: 0 50%;
+        -webkit-transform: scale(1) translate(0%,0%)
+    }
+}
+
+@keyframes spaceOutLeft {
+    0% {
+        opacity: 0;
+        transform-origin: 0 50%;
+        transform: scale(.2) translate(-200%,0%)
+    }
+
+    100% {
+        opacity: 1;
+        transform-origin: 0 50%;
+        transform: scale(1) translate(0%,0%)
+    }
+}
+
+.nextarrow {
+    animation: .3s ease 0s normal running spaceOutright;
+    -webkit-animation: .3s ease 0s normal running spaceOutright
+}
+
+@-webkit-keyframes spaceOutright {
+    0% {
+        opacity: 0;
+        -webkit-transform-origin: 100% 50%;
+        -webkit-transform: scale(.2) translate(200%,0%)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform-origin: 0 50%;
+        -webkit-transform: scale(1) translate(0%,0%)
+    }
+}
+
+@keyframes spaceOutright {
+    0% {
+        opacity: 0;
+        transform-origin: 100% 50%;
+        transform: scale(.2) translate(200%,0%)
+    }
+
+    100% {
+        opacity: 1;
+        transform-origin: 0 50%;
+        transform: scale(1) translate(0%,0%)
+    }
+}
+
+.newstaggered-modal {
+    z-index: 10500
+}
+
+.newstaggered-modal .modal-body p {
+    color: #646464;
+    text-align: center;
+    margin: 5px 0
+}
+
+.newstaggered-modal .other-dd-close {
+    color: #fff;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: lighter;
+    line-height: 22px;
+    position: absolute;
+    right: 10px;
+    top: 5px
+}
+
+.newstaggered-modal .modal-dialog {
+    width: 950px
+}
+
+.newstaggered-modal .modal-dialog .close {
+    opacity: 1;
+    outline: 0;
+    height: auto;
+    line-height: 1
+}
+
+.newstaggered-modal .modal-dialog .top-close {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 0 4px;
+    font-size: 20px;
+    position: absolute;
+    top: -21px;
+    right: -17px
+}
+
+.newstaggered-modal .modal-dialog .bottom-close {
+    bottom: 0;
+    color: #5dade2;
+    display: block;
+    font-size: 14px;
+    text-decoration: underline
+}
+
+.newstaggered-modal .modal-body {
+    padding: 10px 10px 5px
+}
+
+.newstaggered-modal .form-group {
+    margin: 0 auto 10px
+}
+
+.newstaggered-modal .other-city {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 5px
+}
+
+.newstaggered-modal .other-dd-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+    float: right;
+    z-index: 1000;
+    width: 100%
+}
+
+.newstaggered-modal .other-dd-container h5 {
+    padding: 10px 21px;
+    margin: 0;
+    background: #34495e;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px 10px 0 0
+}
+
+.newstaggered-modal .other-dd-wrapper {
+    padding: 15px 10px
+}
+
+.newstaggered-modal .other-dd-category {
+    background: #ececec;
+    color: #000;
+    text-align: left;
+    padding: 2px 7px;
+    line-height: 1.7222;
+    text-transform: uppercase
+}
+
+.newstaggered-modal .other-dd-category>img {
+    margin-left: 10px
+}
+
+.newstaggered-modal .other-dd-category>span {
+    vertical-align: middle
+}
+
+.newstaggered-modal .other-dd-list {
+    list-style: none;
+    margin: 0 5px;
+    height: auto;
+    padding: 0;
+    float: left;
+    width: 140px
+}
+
+.newstaggered-modal .other-dd-list li {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: left
+}
+
+.newstaggered-modal .other-dd-list li a {
+    display: block;
+    color: #646464;
+    font-size: 14px;
+    padding-left: 7px;
+    line-height: 20px;
+    text-align: left;
+    cursor: pointer
+}
+
+.newstaggered-modal .other-dd-list li a:hover {
+    background: #3fe0d0;
+    color: #fff
+}
+
+.newstaggered-modal .other-city-out-side-of-india {
+    border: 0;
+    height: 42px;
+    width: 100%;
+    padding: 10px 19px 10px 9px
+}
+
+.newstaggered-modal .other-city-out-side-of-india .other-dd-list {
+    width: 100%
+}
+
+.newstaggered-modal .eform-modal-input-group {
+    display: table;
+    margin: 0 auto 10px;
+    width: 100%
+}
+
+.newstaggered-modal .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0
+}
+
+.newstaggered-modal .form-group input[type="text"],.newstaggered-modal .form-group input[type="text"]:focus {
+    background: #fff!important;
+    border: 0 none;
+    border-radius: 0 6px 6px 0;
+    box-shadow: 0 0 2px #696969 inset!important;
+    font-size: 14px;
+    height: 42px;
+    text-align: left;
+    text-transform: uppercase
+}
+
+.newstaggered-modal .form-group {
+    padding: 0
+}
+
+.newstaggered-modal .input-group {
+    border-collapse: separate;
+    display: table;
+    position: relative
+}
+
+.newstaggered-modal .input-group-addon {
+    vertical-align: middle;
+    color: #fff;
+    display: table-cell;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    background: #34495e;
+    border: 0 none;
+    box-shadow: 0 0 2px #696969 inset;
+    height: auto;
+    padding: 10px 12px;
+    width: 1%;
+    border-radius: 6px 0 0 6px
+}
+
+.newstaggered-modal .tt-dataset-cities .tt-suggestion p {
+    text-align: left
+}
+
+.newstaggered-modal .form-group.news-tagger-content {
+    padding-top: 0
+}
+
+.news-tagger-salary-deposited .other-dd-list {
+    width: 215px
+}
+
+@media only screen and (max-width : 862px) {
+    .newstaggered-modal .modal-dialog {
+        width:768px
+    }
+
+    .newstaggered-modal .other-dd-list {
+        width: 110px
+    }
+
+    .newstaggered-modal .modal-dialog .close {
+        right: 12px;
+        top: -20px
+    }
+
+    .newstaggered-modal .modal-dialog .bottom-close {
+        position: relative;
+        width: auto;
+        top: 0;
+        right: 0
+    }
+
+    .newstaggered-modal .other-dd-list li a {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 130px;
+        overflow: hidden
+    }
+
+    .eform-block .newstaggered-modal .modal-dialog .close:hover {
+        right: 12px;
+        top: -20px;
+        background-color: #fff
+    }
+
+    .eform-block .newstaggered-modal .modal-dialog .bottom-close:hover {
+        position: relative;
+        width: auto;
+        top: 0;
+        right: 0
+    }
+
+    .news-tagger-salary-deposited .other-dd-list {
+        width: 165px
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .newstaggered-modal .modal-dialog {
+        margin:32px 0;
+        width: 100%
+    }
+
+    .newstaggered-modal .other-dd-list {
+        width: 48%;
+        margin: 0 1%
+    }
+
+    .newstaggered-modal .form-group input[type="text"],.newstaggered-modal .form-group input[type="text"]:focus {
+        background: none repeat scroll 0 0 #fff;
+        border: 0 none;
+        border-radius: 0 6px 6px 0;
+        box-shadow: 0 0 2px #696969 inset!important;
+        font-size: 14px;
+        height: 42px;
+        text-align: left;
+        text-transform: uppercase
+    }
+
+    .newstaggered-modal .form-group {
+        padding: 0
+    }
+
+    .newstaggered-modal .input-group {
+        border-collapse: separate;
+        display: table;
+        position: relative
+    }
+
+    .newstaggered-modal .input-group-addon {
+        vertical-align: middle;
+        color: #fff;
+        display: table-cell;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1;
+        text-align: center;
+        background: #34495e;
+        border: 0 none;
+        box-shadow: 0 0 2px #696969 inset;
+        height: auto;
+        padding: 10px 12px;
+        width: 1%;
+        border-radius: 6px 0 0 6px
+    }
+
+    .newstaggered-modal .other-city {
+        padding: 0
+    }
+
+    .newstaggered-modal .other-dd-list li a {
+        white-space: normal;
+        width: auto
+    }
+}
+
+.sprite-gender {
+    background-image: url(images/sprite/sprite-gender.png);
+    height: 251px;
+    display: inline-block;
+    width: 71px;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.icon-gender-female {
+    background-position: -5px -5px
+}
+
+.icon-gender-male {
+    background-position: -86px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-gender {
+        background-image:url(/images/mobile/landing_page/sprite-gender.png);
+        height: 120px;
+        width: 34px
+    }
+
+    .icon-gender-female {
+        background-position: -5px -5px
+    }
+
+    .icon-gender-male {
+        background-position: -49px -5px
+    }
+}
+
+.sprite-city {
+    background-image: url(/images/sprite/sprite-city.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 132px;
+    height: 132px;
+    background-position: -272px -138px;
+    vertical-align: middle
+}
+
+.icon-city-bangalore {
+    background-position: -2px -2px
+}
+
+.icon-city-chennai {
+    background-position: -138px -2px
+}
+
+.icon-city-mumbai {
+    background-position: -2px -138px
+}
+
+.icon-city-new-delhi {
+    background-position: -138px -138px
+}
+
+.icon-city-other {
+    background-position: -274px -2px
+}
+
+.icon-city-default {
+    background-position: -272px -138px
+}
+
+.sprite-city-list {
+    background-image: url(/images/sprite/sprite-city-list.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .sprite-city {
+        background-image:url(/images/landing/sprite-city-tab.png);
+        width: 75px;
+        height: 88px;
+        background-position: -190px -3px
+    }
+
+    .icon-city-bangalore {
+        background-position: -8px -8px
+    }
+
+    .icon-city-chennai {
+        background-position: -99px -8px
+    }
+
+    .icon-city-mumbai {
+        background-position: -99px -106px
+    }
+
+    .icon-city-new-delhi {
+        background-position: -8px -106px
+    }
+
+    .icon-city-other,.icon-city-default {
+        background-position: -190px -3px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-city {
+        background-image:url(/images/mobile/landing_page/sprite-city.png);
+        width: 60px;
+        height: 70px;
+        background-position: -285px -5px
+    }
+
+    .icon-city-bangalore {
+        background-position: -5px -5px
+    }
+
+    .icon-city-chennai {
+        background-position: -75px -5px
+    }
+
+    .icon-city-mumbai {
+        background-position: -215px 0
+    }
+
+    .icon-city-new-delhi {
+        background-position: -145px 0
+    }
+
+    .icon-city-other,.icon-city-default {
+        background-position: -285px -5px
+    }
+
+    .sprite-city-list {
+        background-image: url(/images/sprite/sprite-city-list-mobile.png);
+        width: 60px;
+        height: 70px
+    }
+}
+
+.sprite-loan {
+    background-image: url(/images/sprite/sprite-loan-v1.png);
+    background-position: 0 150px;
+    width: 108px;
+    height: 108px;
+    background-repeat: no-repeat;
+    display: inline-block!important;
+    vertical-align: middle
+}
+
+.icon-loan-business {
+    background-position: 0 0
+}
+
+.icon-loan-buying-car-bike {
+    background-position: -118px 0
+}
+
+.icon-loan-higher-education {
+    background-position: -236px 0
+}
+
+.icon-loan-home-renovation {
+    background-position: -354px 0
+}
+
+.icon-loan-marriage {
+    background-position: -472px 0
+}
+
+.icon-loan-medical-emergency {
+    background-position: -590px 0
+}
+
+.icon-loan-other {
+    background-position: -708px 0
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-loan {
+        background-image:url(/images/sprite/sprite-loan-mobile.png);
+        width: 58px;
+        height: 58px
+    }
+}
+
+.sprite-eligslider-add {
+    background-image: url(/images/sprite/sprite-landingpage.png);
+    background-position: 0 150px;
+    width: 108px;
+    height: 108px;
+    background-repeat: no-repeat;
+    display: inline-block!important;
+    vertical-align: middle
+}
+
+.rupee_icon_big_white {
+    background-position: -140px -84px;
+    width: 17px;
+    height: 19px;
+    vertical-align: middle
+}
+
+.eform-block .eform-pincode {
+    background-image: url(/images/offerflow/pincode-icon.png);
+    background-position: -4px 0;
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    display: inline-block!important;
+    vertical-align: middle
+}
+
+.eform-block .close-btn {
+    color: #bec2c1;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: -34px
+}
+
+.eform-block .close-btn .popover-close {
+    background-image: url(/images/sprite/sprite-for-symbols-v3.png);
+    background-repeat: no-repeat;
+    background-position: -170px -145px;
+    display: inline-block;
+    height: 16px;
+    opacity: .6;
+    vertical-align: middle;
+    width: 17px
+}
+
+.sprite-eligslider {
+    background-image: url(/images/sprite/sprite-landingpage.png);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    display: inline-block
+}
+
+.icon-name {
+    background-position: -136px -45px;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px
+}
+
+.icon-mobile {
+    background-position: -136px -5px;
+    vertical-align: middle;
+    width: 28px;
+    height: 32px
+}
+
+.icon-email {
+    background-position: -92px -81px;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px
+}
+
+.sprite-bank-desk {
+    background-image: url(/images/sprite/sprite-bank-desk-v2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.icon-bank-12 {
+    background-position: -5px -5px
+}
+
+.icon-bank-2 {
+    background-position: -115px -5px
+}
+
+.icon-bank-39 {
+    background-position: -225px -5px
+}
+
+.icon-bank-5 {
+    background-position: -5px -115px
+}
+
+.icon-bank-57 {
+    background-position: -115px -115px
+}
+
+.icon-bank-58 {
+    background-position: -335px -115px
+}
+
+.icon-bank-92 {
+    background-position: -225px -115px
+}
+
+.icon-bank-96 {
+    background-position: -5px -225px
+}
+
+.icon-bank-999 {
+    background-position: -115px -225px
+}
+
+.icon-receive {
+    background-position: -225px -225px
+}
+
+.icon-receive-cash {
+    background-position: -335px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-bank-desk {
+        background-image:url(/images/sprite/sprite-bank-mob-v1.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .icon-bank-12 {
+        background-position: -6px -6px
+    }
+
+    .icon-bank-2 {
+        background-position: -76px -6px
+    }
+
+    .icon-bank-39 {
+        background-position: -146px -6px
+    }
+
+    .icon-bank-5 {
+        background-position: -6px -76px
+    }
+
+    .icon-bank-57 {
+        background-position: -76px -76px
+    }
+
+    .icon-bank-92 {
+        background-position: -146px -76px
+    }
+
+    .icon-bank-96 {
+        background-position: -6px -146px
+    }
+
+    .icon-bank-999 {
+        background-position: -76px -146px
+    }
+
+    .icon-receive {
+        background-position: -146px -146px
+    }
+
+    .icon-receive-cash {
+        background-position: -216px -6px
+    }
+}
+
+.sprite-cc-rewards {
+    background-image: url(/images/common/sprite-cc-rewards.png);
+    background-repeat: no-repeat;
+    display: inline-block!important;
+    width: 108px;
+    height: 108px;
+    vertical-align: middle
+}
+
+.icon-airline {
+    background-position: -5px -5px
+}
+
+.icon-cashback {
+    background-position: -123px -5px
+}
+
+.icon-fuel {
+    background-position: -5px -123px
+}
+
+.icon-lifestyle {
+    background-position: -123px -123px
+}
+
+.icon-lowfee {
+    background-position: -241px -5px
+}
+
+.icon-premium {
+    background-position: -241px -123px
+}
+
+.icon-shopping {
+    background-position: -5px -241px
+}
+
+.sprite-rs-image {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/bankbazaar-image/);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    width: 106px;
+    height: 106px
+}
+
+.sprite-ex-cards {
+    background-image: url(/images/sprite/sprite-ex-cc-v3.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 108px;
+    height: 108px;
+    vertical-align: middle
+}
+
+.icon-cc-12 {
+    background-position: -5px -5px
+}
+
+.icon-cc-39 {
+    background-position: -123px -123px
+}
+
+.icon-cc-2 {
+    background-position: -123px -5px
+}
+
+.icon-cc-96 {
+    background-position: -241px -123px
+}
+
+.icon-cc-57 {
+    background-position: -241px -5px
+}
+
+.icon-cc-92 {
+    background-position: -5px -123px
+}
+
+.icon-cc-9 {
+    background-position: -241px -241px
+}
+
+.icon-nocards {
+    background-position: -123px -241px
+}
+
+.icon-cc-999 {
+    background-position: -5px -241px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-ex-cards {
+        background-image:url(/images/sprite/sprite-ex-cc-mob-v3.png);
+        width: 60px;
+        height: 60px;
+        border-radius: 60px
+    }
+
+    .icon-cc-12 {
+        background-position: -2px -2px
+    }
+
+    .icon-cc-2 {
+        background-position: -66px -2px
+    }
+
+    .icon-cc-39 {
+        background-position: -2px -66px
+    }
+
+    .icon-cc-57 {
+        background-position: -66px -66px
+    }
+
+    .icon-cc-92 {
+        background-position: -130px -2px
+    }
+
+    .icon-cc-9 {
+        background-position: -130px -130px
+    }
+
+    .icon-cc-96 {
+        background-position: -130px -66px
+    }
+
+    .icon-cc-999 {
+        background-position: -2px -130px
+    }
+
+    .icon-nocards {
+        background-position: -66px -130px
+    }
+}
+
+.sprite-employment {
+    background-image: url(/images/sprite/sprite-employment.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 108px;
+    height: 108px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.icon-employment1,.icon-tli_salaried {
+    background-position: 0 0
+}
+
+.icon-employment2 {
+    background-position: -108px 0
+}
+
+.icon-employment3,.icon-tli_self_employed_business {
+    background-position: -216px 0
+}
+
+.icon-employment4,.icon-tli_self_employed_professional {
+    background-position: -324px 0
+}
+
+.icon-employment5,.icon-tli_student {
+    background-position: -432px 0
+}
+
+.icon-employment6,.icon-tli_retired {
+    background-position: -540px 0
+}
+
+.icon-employment7,.icon-tli_homemaker {
+    background-position: -648px 0
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-employment {
+        background-image:url(/images/mobile/landing_page/sprite-employment.png);
+        width: 60px;
+        height: 60px
+    }
+
+    .icon-employment1 {
+        background-position: 0 0
+    }
+
+    .icon-employment2 {
+        background-position: -60px 0
+    }
+
+    .icon-employment3,.icon-tli_self_employed_business {
+        background-position: -120px 0
+    }
+
+    .icon-employment4,.icon-tli_self_employed_professional {
+        background-position: -180px 0
+    }
+
+    .icon-employment5,.icon-tli_student {
+        background-position: -240px 0
+    }
+
+    .icon-employment6,.icon-tli_retired {
+        background-position: -300px 0
+    }
+
+    .icon-employment7,.icon-tli_homemaker {
+        background-position: -360px 0
+    }
+}
+
+.sprite-tobacco {
+    background-image: url(/images/sprite/sprite-tobacco.png);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 71px;
+    height: 251px
+}
+
+.icon-gender-nonsmoke-Female {
+    background-position: -5px -5px
+}
+
+.icon-gender-nonsmoke-Male {
+    background-position: -86px -5px
+}
+
+.icon-gender-smoke-Female {
+    background-position: -166px -5px
+}
+
+.icon-gender-smoke-Male {
+    background-position: -239px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-tobacco {
+        background-image:url(/images/sprite/sprite-tobacco-mob.png);
+        width: 34px;
+        height: 120px!important
+    }
+
+    .icon-gender-nonsmoke-Female {
+        background-position: -5px -5px
+    }
+
+    .icon-gender-nonsmoke-Male {
+        background-position: -49px -5px
+    }
+
+    .icon-gender-smoke-Female {
+        background-position: -92px -5px
+    }
+
+    .icon-gender-smoke-Male {
+        background-position: -132px -5px
+    }
+}
+
+.sprite-preferred-car {
+    background-image: url(/images/sprite/sprite-preferred-car-v1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: -106px -210px;
+    vertical-align: middle
+}
+
+.HONDA-AMAZE_round {
+    background-position: -2px -2px
+}
+
+.HYUNDAI-EON_round {
+    background-position: -106px -2px
+}
+
+.HYUNDAI-GRAND-I10_round {
+    background-position: -2px -106px
+}
+
+.MARUTI-SUZUKI-ALTO_round {
+    background-position: -106px -106px
+}
+
+.MARUTI-SUZUKI-CELERIO_round {
+    background-position: -210px -2px
+}
+
+.MARUTI-SUZUKI-SWIFT_round {
+    background-position: -210px -106px
+}
+
+.MARUTI-SUZUKI-WAGON-R_round {
+    background-position: -2px -210px
+}
+
+.other-car_round,.other-car-default {
+    background-position: -106px -210px
+}
+
+.MARUTI-SUZUKI-ALTO-800_round {
+    background-position: -210px -210px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-preferred-car {
+        background-image:url(/images/sprite-preferred-car-mob.png);
+        width: 60px;
+        height: 60px;
+        background-position: -66px -130px;
+        vertical-align: middle
+    }
+
+    .HONDA-AMAZE_round {
+        background-position: -2px -2px
+    }
+
+    .HYUNDAI-EON_round {
+        background-position: -66px -2px
+    }
+
+    .HYUNDAI-GRAND-I10_round {
+        background-position: -2px -66px
+    }
+
+    .MARUTI-SUZUKI-ALTO_round {
+        background-position: -66px -66px
+    }
+
+    .MARUTI-SUZUKI-CELERIO_round {
+        background-position: -130px -2px
+    }
+
+    .MARUTI-SUZUKI-SWIFT_round {
+        background-position: -130px -66px
+    }
+
+    .MARUTI-SUZUKI-WAGON-R_round {
+        background-position: -2px -130px
+    }
+
+    .other-car_round,.other-car-default {
+        background-position: -66px -130px
+    }
+
+    .MARUTI-SUZUKI-ALTO-800_round {
+        background-position: -130px -130px
+    }
+}
+
+.sprite-car-type {
+    background-image: url(/images/sprite/sprite-car-type-v1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 132px;
+    height: 132px;
+    vertical-align: middle;
+    background-position: 0 200px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-car-type {
+        background-image:url(/images/sprite/sprite-car-type-mo-v1.png);
+        width: 60px;
+        height: 60px
+    }
+}
+
+.sprite-carlogo {
+    background-image: url(/images/sprite/sprite-carlogo.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 10px;
+    background-position: 0 150px;
+    height: 16px
+}
+
+.icon-ASHOK-LEYLAND {
+    background-position: -5px -5px;
+    width: 16px
+}
+
+.icon-ASTON-MARTIN {
+    background-position: -31px -5px;
+    width: 34px;
+    height: 13px
+}
+
+.icon-AUDI {
+    background-position: -75px -5px;
+    width: 27px
+}
+
+.icon-BAJAJ {
+    background-position: -112px -5px;
+    width: 17px
+}
+
+.icon-BENTLEY {
+    background-position: -139px -5px;
+    width: 49px
+}
+
+.icon-BMW {
+    background-position: -198px -5px;
+    width: 16px
+}
+
+.icon-BUGATTI {
+    background-position: -5px -31px;
+    width: 32px
+}
+
+.icon-CADILLAC {
+    background-position: -47px -31px;
+    width: 17px
+}
+
+.icon-CHEVROLET {
+    background-position: -74px -31px;
+    width: 31px;
+    height: 12px
+}
+
+.icon-DAEWOO-MOTORS {
+    background-position: -115px -31px;
+    width: 21px
+}
+
+.icon-DATSAN {
+    background-position: -146px -31px;
+    width: 30px
+}
+
+.icon-DATSUN {
+    background-position: -186px -31px;
+    width: 30px
+}
+
+.icon-DODGE {
+    background-position: -5px -57px;
+    width: 29px
+}
+
+.icon-EICHER {
+    background-position: -44px -57px;
+    width: 24px
+}
+
+.icon-ENDEVOR {
+    background-position: -78px -57px;
+    width: 31px;
+    height: 12px
+}
+
+.icon-ESTD {
+    background-position: -119px -57px;
+    width: 30px;
+    height: 10px
+}
+
+.icon-FERRARI {
+    background-position: -159px -57px;
+    width: 10px
+}
+
+.icon-FIAT {
+    background-position: -179px -57px;
+    width: 16px
+}
+
+.icon-FORCE {
+    background-position: -205px -57px;
+    width: 16px
+}
+
+.icon-FORD {
+    background-position: -5px -83px;
+    width: 37px;
+    height: 15px
+}
+
+.icon-HINDUSTAN-MOTORS {
+    background-position: -52px -83px;
+    width: 27px
+}
+
+.icon-HONDA {
+    background-position: -89px -83px;
+    width: 20px
+}
+
+.icon-HUMMER {
+    background-position: -119px -83px;
+    width: 58px;
+    height: 8px
+}
+
+.icon-HYUNDAI {
+    background-position: -187px -83px;
+    width: 31px;
+    height: 15px
+}
+
+.icon-ICML {
+    background-position: -5px -108px;
+    width: 19px
+}
+
+.icon-JAGUAR {
+    background-position: -119px -101px;
+    width: 42px
+}
+
+.icon-LAMBORGHINI {
+    background-position: -171px -108px;
+    width: 14px
+}
+
+.icon-LAND-ROVER {
+    background-position: -195px -108px;
+    width: 30px
+}
+
+.icon-MAHINDRA {
+    background-position: -5px -134px;
+    width: 33px;
+    height: 15px
+}
+
+.icon-MAHINDRA-RENAULT {
+    background-position: -48px -134px;
+    width: 62px
+}
+
+.icon-MAHINDRA-SSANGYONG {
+    background-position: -120px -134px;
+    width: 55px
+}
+
+.icon-MARUTI {
+    background-position: -185px -134px;
+    width: 16px
+}
+
+.icon-MARUTI-SUZUKI {
+    background-position: -5px -160px;
+    width: 34px
+}
+
+.icon-MASERATI {
+    background-position: -211px -134px;
+    width: 12px
+}
+
+.icon-MAYBACH {
+    background-position: -49px -160px;
+    width: 22px
+}
+
+.icon-MERCEDES-BENZ {
+    background-position: -81px -160px;
+    width: 16px
+}
+
+.icon-MINI {
+    background-position: -107px -160px;
+    width: 38px
+}
+
+.icon-MITSUBISHI {
+    background-position: -155px -160px;
+    width: 18px
+}
+
+.icon-NISSAN {
+    background-position: -183px -160px;
+    width: 19px
+}
+
+.icon-OPEL {
+    background-position: -5px -186px;
+    width: 21px
+}
+
+.icon-PORSCHE {
+    background-position: -36px -186px;
+    width: 14px
+}
+
+.icon-PREMIER {
+    background-position: -60px -186px;
+    width: 25px
+}
+
+.icon-PREMIER-AUTOMOBILES {
+    background-position: -95px -186px;
+    width: 25px
+}
+
+.icon-RENAULT {
+    background-position: -130px -186px;
+    width: 16px
+}
+
+.icon-ROLLS-ROYCE {
+    background-position: -212px -160px;
+    width: 12px;
+    height: 20px
+}
+
+.icon-SAAB-AUTOMOBILES {
+    background-position: -224px -5px;
+    width: 71px
+}
+
+.icon-SAN-MOTORS {
+    background-position: -226px -31px;
+    width: 15px
+}
+
+.icon-SKODA {
+    background-position: -251px -31px;
+    width: 16px
+}
+
+.icon-SSANGYONG-MOTOR {
+    background-position: -277px -31px;
+    width: 26px
+}
+
+.icon-SUBARU {
+    background-position: -231px -57px;
+    width: 29px
+}
+
+.icon-TATA {
+    background-position: -270px -57px;
+    width: 24px;
+    height: 17px
+}
+
+.icon-TOYOTA {
+    background-position: -235px -84px;
+    width: 24px
+}
+
+.icon-TVS {
+    background-position: -156px -190px;
+    width: 87px
+}
+
+.icon-VOLKSWAGEN {
+    background-position: -269px -84px;
+    width: 16px
+}
+
+.icon-VOLVO {
+    background-position: -34px -110px;
+    width: 35px;
+    height: 5px
+}
+
+@media only screen and (min-width: 768px) {
+    .sprite-members {
+        background-image:url(/images/sprite/sprite-members.png);
+        background-position: 0 150px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+        width: 108px;
+        height: 108px
+    }
+
+    .icon-mem-adult {
+        background-position: -5px -5px
+    }
+
+    .icon-mem-child {
+        background-position: -123px -5px
+    }
+}
+
+.sprite-car-status {
+    background-image: url(/images/sprite/sprite-car-status.png);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 265px;
+    height: 131px
+}
+
+.newcar_insurs {
+    background-position: -5px -5px
+}
+
+.renewexiscar_insurs {
+    background-position: -280px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-car-status {
+        background-image:url(/images/mobile/landing_page/sprite-car-status.png);
+        width: 108px;
+        height: 53px
+    }
+
+    .newcar_insurs {
+        background-position: -5px -5px
+    }
+
+    .renewexiscar_insurs {
+        background-position: -123px -5px
+    }
+}
+
+.sprite-fuel {
+    background-image: url(/images/sprite/sprite-fuel-v1.png);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 155px;
+    height: 155px;
+    vertical-align: middle
+}
+
+.fuel-diesel {
+    background-position: -5px -5px
+}
+
+.fuel-lpg-cng-company-fitted {
+    background-position: -170px -5px
+}
+
+.fuel-lpg-cng-externally-fitted {
+    background-position: -5px -170px
+}
+
+.fuel-petrol {
+    background-position: -170px -170px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-fuel {
+        background-image:url(/images/sprite/sprite-fuel-mob-v1.png);
+        width: 80px;
+        height: 80px
+    }
+
+    .fuel-diesel {
+        background-position: -5px -5px
+    }
+
+    .fuel-lpg-cng-company-fitted {
+        background-position: -95px -5px
+    }
+
+    .fuel-lpg-cng-externally-fitted {
+        background-position: -5px -95px
+    }
+
+    .fuel-petrol {
+        background-position: -95px -95px
+    }
+}
+
+.sprite-policy {
+    background-image: url(/images/sprite/sprite-policy.png);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 110px;
+    vertical-align: middle
+}
+
+.policy_expired {
+    background-position: -5px -5px
+}
+
+.policy_fifteen {
+    background-position: -115px -5px
+}
+
+.policy_fourtyfive {
+    background-position: -225px -5px
+}
+
+.policy_today {
+    background-position: -335px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-policy {
+        background-image:url(/images/sprite/sprite-policy-mob.png);
+        width: 80px;
+        height: 88px
+    }
+
+    .policy_expired {
+        background-position: -5px -5px
+    }
+
+    .policy_fifteen {
+        background-position: -95px -5px
+    }
+
+    .policy_fourtyfive {
+        background-position: -185px -5px
+    }
+
+    .policy_today {
+        background-position: -275px -5px
+    }
+}
+
+.sprite-epolicy {
+    background-image: url(/images/sprite/sprite-epolicy.png);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 265px;
+    height: 99px;
+    vertical-align: middle
+}
+
+.policy_no {
+    background-position: -5px -5px
+}
+
+.policy_yes {
+    background-position: -280px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-epolicy {
+        background-image:url(/images/sprite/sprite-epolicy-mob.png);
+        width: 108px;
+        height: 40px
+    }
+
+    .policy_no {
+        background-position: -5px -5px
+    }
+
+    .policy_yes {
+        background-position: -123px -5px
+    }
+}
+
+.sprite-discount-premium {
+    background-image: url(/images/offerflow/sprite-discount-premium.png);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    vertical-align: middle
+}
+
+.bbicon-premium-none {
+    background-position: -5px -5px
+}
+
+.bbicon-premium-xs {
+    background-position: -267px -5px
+}
+
+.bbicon-premium-sm {
+    background-position: -399px -5px
+}
+
+.bbicon-premium-md {
+    background-position: -530px -5px
+}
+
+.bbicon-premium-lg {
+    background-position: -136px -5px
+}
+
+.sprite-discount-occupation {
+    background-image: url(/images/offerflow/sprite-discount-occupation.png);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 116px;
+    height: 108px;
+    vertical-align: middle
+}
+
+.bbicon-occupation-one {
+    background-position: -5px -5px
+}
+
+.bbicon-occupation-two {
+    background-position: -120px -5px
+}
+
+.bbicon-occupation-third {
+    background-position: -235px -5px
+}
+
+.bbicon-occupation-fourth {
+    background-position: -350px -5px
+}
+
+.bbicon-occupation-fifth {
+    background-position: -465px -5px
+}
+
+.bbicon-occupation-seventh {
+    background-position: -580px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-discount-occupation {
+        background-image:url(/images/offerflow/sprite-discount-occupation-mo.png);
+        width: 80px;
+        height: 70px
+    }
+
+    .bbicon-occupation-one {
+        background-position: 0 -5px
+    }
+
+    .bbicon-occupation-two {
+        background-position: -81px -5px
+    }
+
+    .bbicon-occupation-third {
+        background-position: -164px -5px
+    }
+
+    .bbicon-occupation-fourth {
+        background-position: -245px -5px
+    }
+
+    .bbicon-occupation-fifth {
+        background-position: -326px -5px
+    }
+
+    .bbicon-occupation-seventh {
+        background-position: -407px -5px
+    }
+}
+
+.sprite-discount-arai {
+    background-image: url(/images/offerflow/sprite-discount-aai.png);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    vertical-align: middle
+}
+
+.bbicon-arai-no {
+    background-position: -5px -5px
+}
+
+.bbicon-arai-yes {
+    background-position: -138px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-discount-arai {
+        background-image:url(/images/offerflow/sprite-discount-aai-mo.png);
+        width: 73px;
+        height: 80px
+    }
+
+    .bbicon-arai-no {
+        background-position: -6px -5px
+    }
+
+    .bbicon-arai-yes {
+        background-position: -91px -5px
+    }
+}
+
+.sprite-discount-aai {
+    background-image: url(/images/offerflow/sprite-discount-aai.png);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    vertical-align: middle
+}
+
+.bbicon-aai-no {
+    background-position: -5px -5px
+}
+
+.bbicon-aai-yes {
+    background-position: -137px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-discount-aai {
+        background-image:url(/images/offerflow/sprite-discount-aai-mo.png);
+        width: 75px;
+        height: 80px
+    }
+
+    .bbicon-aai-no {
+        background-position: -6px -5px
+    }
+
+    .bbicon-aai-yes {
+        background-position: -91px -5px
+    }
+}
+
+.sprite-esign {
+    background-image: url(/images/datadriven/esign-sprite-v1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 28px;
+    height: 30px
+}
+
+.icon-reg-no {
+    background-position: -8px -19px
+}
+
+.icon-engine-no {
+    background-position: -9px -66px
+}
+
+.icon-chassis-no {
+    background-position: -9px -118px
+}
+
+.sprite-senior-citizen {
+    background-image: url(/images/sprite/sprite-senior-citizen.png);
+    height: 253px;
+    display: inline-block;
+    width: 80px;
+    background-position: 0 250px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.male-young {
+    background-position: -194px 0
+}
+
+.male-old {
+    background-position: -283px 0;
+    width: 120px
+}
+
+.female-young {
+    background-position: 0 0
+}
+
+.female-old {
+    background-position: -70px 0;
+    width: 120px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-senior-citizen {
+        background-image:url(/images/offerflow/mobile/landing_page/sprite-senior-citizen.png);
+        height: 130px;
+        width: 35px
+    }
+
+    .male-young {
+        background-position: -100px 0
+    }
+
+    .male-old {
+        background-position: -144px 0;
+        width: 60px
+    }
+
+    .female-young {
+        background-position: -1px 0
+    }
+
+    .female-old {
+        background-position: -47px 0;
+        width: 45px
+    }
+}
+
+.sprite-senior-citizen {
+    background-image: url(/images/sprite/sprite-senior-citizen.png);
+    height: 253px;
+    display: inline-block;
+    width: 80px;
+    background-position: 0 250px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.male-young {
+    background-position: -194px 0
+}
+
+.male-old {
+    background-position: -283px 0;
+    width: 120px
+}
+
+.female-young {
+    background-position: 0 0
+}
+
+.female-old {
+    background-position: -70px 0;
+    width: 120px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-senior-citizen {
+        background-image:url(/images/offerflow/mobile/landing_page/sprite-senior-citizen.png);
+        height: 130px;
+        width: 35px
+    }
+
+    .male-young {
+        background-position: -100px 0
+    }
+
+    .male-old {
+        background-position: -144px 0;
+        width: 60px
+    }
+
+    .female-young {
+        background-position: -1px 0
+    }
+
+    .female-old {
+        background-position: -47px 0;
+        width: 45px
+    }
+}
+
+.sprite-resident-male {
+    background-image: url(/images/sprite/sprite-resident-male-v1.png);
+    height: 253px;
+    display: inline-block;
+    width: 160px;
+    background-position: 0 250px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-resident-male {
+        background-image:url(/images/sprite/sprite-resident-male-mob-v1.png);
+        height: 130px;
+        width: 80px
+    }
+}
+
+.sprite-resident-female {
+    background-image: url(/images/sprite/sprite-resident-female-v1.png);
+    height: 253px;
+    display: inline-block;
+    width: 170px;
+    background-position: 0 250px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-resident-female {
+        background-image:url(/images/sprite/sprite-resident-female-mob-v1.png);
+        height: 130px;
+        width: 80px
+    }
+}
+
+.sprite-app-elig {
+    background-image: url(/images/sprite/sprite-eform-choice.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 106px;
+    height: 106px
+}
+
+.cheque-bounce {
+    background-position: -5px -5px
+}
+
+.cheque-bounce-yes {
+    background-position: -122px -5px
+}
+
+.cheque-bounce-no {
+    background-position: -238px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-app-elig {
+        background-image:url(/images/sprite/sprite-eform-choice-mobile.png);
+        background-repeat: no-repeat;
+        display: inline-block;
+        vertical-align: middle;
+        width: 60px;
+        height: 60px
+    }
+
+    .cheque-bounce {
+        background-position: -5px -5px
+    }
+
+    .cheque-bounce-yes {
+        background-position: -75px -5px
+    }
+
+    .cheque-bounce-no {
+        background-position: -145px -5px
+    }
+}
+
+.sprite-app-sbi {
+    background-image: url(/images/sprite/sprite-app-sbi.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-app-kotak {
+    background-image: url(/images/sprite/sprite-app-kotak.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-app-hsbc {
+    background-image: url(/images/sprite/sprite-app-hsbc.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-app-axis {
+    background-image: url(/images/sprite/sprite-app-axis.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-app-american {
+    background-image: url(/images/sprite/sprite-app-american.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-app-hdfc {
+    background-image: url(/images/sprite/sprite-app-hdfc.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-app-indusind {
+    background-image: url(/images/sprite/sprite-app-indusind.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-app-citi {
+    background-image: url(/images/sprite/sprite-app-citi1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-pf-deduction {
+    background-image: url(/images/sprite/sprite-pf-deduction1.png);
+    height: 251px;
+    display: inline-block;
+    width: 210px;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.sprite-bonus-incentive {
+    background-image: url(/images/sprite/sprite-bonus-incentive.png);
+    height: 251px;
+    width: 210px;
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.sprite-latest-statement {
+    background-image: url(/images/sprite/sprite-latest-statement.png);
+    height: 251px;
+    width: 210px;
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.sprite-emp-bcard {
+    background-image: url(/images/sprite/sprite-emp-bcard.png);
+    height: 257px;
+    width: 210px;
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.sprite-loan-cc-taken {
+    background-image: url(/images/sprite/sprite-loan-cc-taken.png);
+    height: 257px;
+    width: 210px;
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.sprite-form-sixteen {
+    background-image: url(/images/sprite/sprite-form-sixteen-v1.png);
+    height: 257px;
+    display: inline-block;
+    width: 210px;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.sprite-app-scb {
+    background-image: url(/images/sprite/sprite-app-scb.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-ecs-cheque-bounce {
+    background-image: url(/images/sprite/sprite-ecs-cheque-bounce.png);
+    height: 257px;
+    width: 210px;
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-app-sbi {
+        background-image:url(/images/sprite/sprite-app-sbi-mob.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .sprite-app-kotak {
+        background-image: url(/images/sprite/sprite-app-kotak-mob.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .sprite-app-hsbc {
+        background-image: url(/images/sprite/sprite-app-hsbc-mob.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .sprite-app-axis {
+        background-image: url(/images/sprite/sprite-app-axis-mob.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .sprite-app-american {
+        background-image: url(/images/sprite/sprite-app-american-mob.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .sprite-app-hdfc {
+        background-image: url(/images/sprite/sprite-app-hdfc-mob.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .sprite-app-indusind {
+        background-image: url(/images/sprite/sprite-app-indusind-mob.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .sprite-app-citi {
+        background-image: url(/images/sprite/sprite-app-citi-mob1.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .sprite-pf-deduction {
+        background-image: url(/images/sprite/sprite-pf-deduction-mob1.png);
+        width: 100px;
+        height: 120px
+    }
+
+    .sprite-bonus-incentive {
+        background-image: url(/images/sprite/sprite-bonus-incentive-mob.png);
+        width: 100px;
+        height: 120px
+    }
+
+    .sprite-latest-statement {
+        background-image: url(/images/sprite/sprite-latest-statement-mob.png);
+        width: 100px;
+        height: 120px
+    }
+
+    .sprite-emp-bcard {
+        background-image: url(/images/sprite/sprite-emp-bcard-mob.png);
+        width: 100px;
+        height: 120px
+    }
+
+    .sprite-loan-cc-taken {
+        background-image: url(/images/sprite/sprite-loan-cc-taken-mob.png);
+        width: 100px;
+        height: 120px
+    }
+
+    .sprite-form-sixteen {
+        background-image: url(/images/sprite/sprite-form-sixteen-mob-v1.png);
+        width: 100px;
+        height: 120px
+    }
+
+    .sprite-app-scb {
+        background-image: url(/images/sprite/sprite-app-scb-mob.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .sprite-ecs-cheque-bounce {
+        background-image: url(/images/sprite/sprite-ecs-cheque-bounce-mob.png);
+        width: 100px;
+        height: 120px
+    }
+}
+
+.icon-address-home {
+    background-position: -8px -170px
+}
+
+.icon-address-city {
+    background-position: -8px -220px
+}
+
+.icon-address-pin {
+    background-position: -8px -274px
+}
+
+.icon-details-pan {
+    background-position: -8px -325px
+}
+
+.sprite-eform-thankyou {
+    background-image: url(/images/sprite/sprite-playstore-itune.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 91px;
+    height: 32px
+}
+
+.icon-eform-itune {
+    background-position: -106px -3px
+}
+
+.icon-eform-playstore {
+    background-position: -5px -3px
+}
+
+.bbeform-redirection-block {
+    margin: 0 auto;
+    background: rgba(255,255,255,0.5);
+    padding: 8px 10px;
+    display: inline-block
+}
+
+.bbeform-redirection-block a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+    height: 33px;
+    margin-right: 10px
+}
+
+a.btn-track {
+    padding: 10px 20px 12px 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    height: auto
+}
+
+.eform-or-style {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px
+}
+
+@media only screen and (max-width: 767px) {
+    .bbeform-redirection-block {
+        background:0
+    }
+
+    .bbeform-download-block {
+        display: block;
+        height: 30px
+    }
+
+    .bbeform-download-block a {
+        display: inline-block;
+        margin: auto 10px
+    }
+
+    .btn-track {
+        font-size: 16px
+    }
+
+    .eform-or-style {
+        font-size: 14px;
+        color: #fff;
+        display: block;
+        margin: 5px 0
+    }
+}
+
+.bbeform-share {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 350px
+}
+
+.bbeform-share a {
+    padding: 12px 0 0 36px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    width: 200px;
+    height: 45px
+}
+
+.btn-share-facebook {
+    background: url(/images/common/icon-fb-share.png) no-repeat 4px 4px #2f4a84;
+    background-size: 37px;
+    float: left
+}
+
+.btn-share-review {
+    background: url(/images/common/icon-review-share.png) no-repeat 4px 4px #f99d1c;
+    background-size: 37px;
+    float: right
+}
+
+@media only screen and (max-width: 767px) {
+    .bbeform-share {
+        margin-top:0;
+        display: block;
+        border-spacing: inherit
+    }
+
+    .bbeform-share a {
+        padding: 0 10px 0 45px;
+        font-size: 10px;
+        width: 180px;
+        display: block;
+        height: 40px;
+        margin: 20px auto
+    }
+
+    .bbeform-share span {
+        display: table-cell;
+        vertical-align: middle;
+        height: 40px;
+        width: 125px
+    }
+
+    .btn-share-facebook {
+        background: url(/images/common/icon-fb-share.png) no-repeat 2px 2px #2f4a84;
+        background-size: 36px;
+        float: none
+    }
+
+    .btn-share-review {
+        background: url(/images/common/icon-review-share.png) no-repeat 2px 2px #f99d1c;
+        background-size: 36px;
+        float: none
+    }
+}
+
+.sprite-thankyou {
+    background-image: url(/images/sprite/sprite-input-prepand-v5.png);
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+    display: inline-block
+}
+
+.icon-address {
+    background-position: -3px -5px
+}
+
+.icon-bank {
+    background-position: -3px -56px
+}
+
+.icon-location {
+    background-position: -3px -106px
+}
+
+.icon-pwd {
+    background-position: -3px -156px
+}
+
+.icon-pan {
+    background-position: -3px -206px
+}
+
+.icon-username {
+    background-position: -5px -252px
+}
+
+.icon-creditcard {
+    background-position: -5px -300px
+}
+
+.icon-proof {
+    background-position: -5px -352px
+}
+
+.icon-dateofbirth {
+    background-position: -5px -404px
+}
+
+.sprite-car-delivery {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/bankbazaar-image/);
+    background-position: 0 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 110px;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-car-delivery {
+        background-image:url(https://s3-ap-southeast-1.amazonaws.com/bankbazaar-image/);
+        width: 80px;
+        height: 88px
+    }
+}
+
+.sprite-dp-bank-list {
+    background-image: url(/images/sprite/sprite-dp-bank-list-v2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-dp-bank-list {
+        background-image:url(/images/sprite/sprite-dp-bank-list-mobile-v2.png);
+        width: 58px;
+        height: 58px
+    }
+}
+
+.sprite-dp-bank-list-loans {
+    background-image: url(/images/sprite/sprite-dp-bank-list-loans-v1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-dp-panchayat {
+    background-image: url(/images/sprite/sprite-dp-panchayat.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-dp-loan-time {
+    background-image: url(/images/sprite/sprite-dp-loan-time-v3.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 109px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-salary-mode {
+    background-image: url(/images/sprite/sprite-salary-mode-v1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-dp-bank-list-loans {
+        background-image:url(/images/sprite/sprite-dp-bank-list-loans-mobile-v1.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .sprite-dp-panchayat {
+        background-image: url(/images/sprite/sprite-dp-panchayat-mobile.png);
+        width: 58px;
+        height: 58px
+    }
+
+    .sprite-dp-loan-time {
+        background-image: url(/images/sprite/sprite-dp-loan-time-mobile-v3.png);
+        width: 50px;
+        height: 55px
+    }
+
+    .sprite-salary-mode {
+        background-image: url(/images/sprite/sprite-salary-mode-mobile-v1.png);
+        width: 58px;
+        height: 58px
+    }
+}
+
+.sprite-doc-list {
+    background-image: url(/images/sprite/sprite-doc-upload-v7.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 108px;
+    height: 108px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-doc-list {
+        background-image:url(/images/sprite/sprite-doc-upload-mobile-v7.png);
+        width: 60px;
+        height: 60px
+    }
+}
+
+.sprite-payment-method {
+    background-image: url("/images/datadriven/sprite-payment-method.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle
+}
+
+.icon-payment-netbank {
+    background-position: -5px -5px
+}
+
+.icon-payment-card {
+    background-position: -115px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-payment-method {
+        background-image:url("/images/datadriven/sprite-payment-method-mobile.png");
+        width: 59px;
+        height: 59px
+    }
+
+    .icon-payment-netbank {
+        background-position: -5px -5px
+    }
+
+    .icon-payment-card {
+        background-position: -73px -5px
+    }
+}
+
+.sprite-purpose {
+    background-image: url(/images/sprite/sprite-purpose.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 108px;
+    height: 108px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-property {
+    background-image: url(/images/sprite/sprite-property.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 108px;
+    height: 101px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-limit-transaction {
+    background-image: url(/images/sprite/sprite-limit-transaction.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 148px;
+    height: 148px;
+    background-position: 0 150px;
+    vertical-align: middle
+}
+
+.sprite-co-applicant {
+    background-image: url(/images/sprite/sprite-co-applicant.png);
+    width: 148px;
+    height: 188px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: 0 150px
+}
+
+.sprite-co-app {
+    background-image: url(/images/sprite/sprite-co-app-v2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 132px;
+    height: 132px;
+    vertical-align: middle;
+    background-position: 0 200px
+}
+
+.sprite-seller {
+    background-image: url(/images/sprite/sprite-home-seller-v2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 132px;
+    height: 132px;
+    vertical-align: middle;
+    background-position: 0 200px
+}
+
+.sprite-home-property {
+    background-image: url(/images/sprite/sprite-home-property-v3.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 132px;
+    height: 132px;
+    vertical-align: middle;
+    background-position: 0 200px
+}
+
+.sprite-land-limit {
+    background-image: url(/images/sprite/sprite-land-limit-v2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 132px;
+    height: 132px;
+    vertical-align: middle;
+    background-position: 0 200px
+}
+
+.sprite-residency-status {
+    background-image: url(/images/sprite/sprite-residency-status-v1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 108px;
+    height: 108px;
+    vertical-align: middle;
+    background-position: 0 200px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-purpose {
+        background-image:url(/images/mobile/landing_page/sprite-purpose.png);
+        width: 60px;
+        height: 60px
+    }
+
+    .sprite-property {
+        background-image: url(/images/mobile/landing_page/sprite-property.png);
+        width: 60px;
+        height: 56px
+    }
+
+    .sprite-limit-transaction {
+        background-image: url(/images/mobile/mobile/landing_page/sprite-limit-transaction.png);
+        width: 60px;
+        height: 60px;
+        display: inline-block!important
+    }
+
+    .sprite-co-applicant {
+        background-image: url(/images/mobile/landing_page/sprite-co-applicant.png);
+        width: 60px;
+        height: 76px
+    }
+
+    .sprite-co-app {
+        background-image: url(/images/sprite/sprite-co-app-mob-v2.png);
+        width: 60px;
+        height: 60px
+    }
+
+    .sprite-seller {
+        background-image: url(/images/sprite/sprite-seller-mob-v2.png);
+        width: 60px;
+        height: 60px
+    }
+
+    .sprite-home-property {
+        background-image: url(/images/sprite/sprite-property-mob-v3.png);
+        width: 60px;
+        height: 60px
+    }
+
+    .sprite-land-limit {
+        background-image: url(/images/sprite/sprite-land-limit-mob-v2.png);
+        width: 60px;
+        height: 60px
+    }
+
+    .sprite-residency-status {
+        background-image: url(/images/sprite/sprite-residency-status-mobile.png);
+        width: 60px;
+        height: 60px
+    }
+}
+
+.sprite-car-reg-city {
+    background-image: url(/images/sprite/sprite-car-reg-city.png);
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.sprite-dp-defaulted {
+    background-image: url(/images/sprite/sprite-dp-defaulted-v1.png);
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.sprite-chk-bounces {
+    background-image: url(/images/sprite/sprite-chk-bounces.png);
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.sprite-it-returns {
+    background-image: url(/images/sprite/sprite-it-returns.png);
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-car-reg-city {
+        background-image:url(/images/sprite/sprite-car-reg-city-mobile.png)
+    }
+
+    .sprite-dp-defaulted {
+        background-image: url(/images/sprite/sprite-dp-defaulted-mobile-v1.png)
+    }
+
+    .sprite-chk-bounces {
+        background-image: url(/images/sprite/sprite-chk-bounces-mobile.png)
+    }
+
+    .sprite-it-returns {
+        background-image: url(/images/sprite/sprite-it-returns-mobile.png)
+    }
+}
+
+.eform-slide-loader {
+    margin-top: 8%;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding: 0 5px
+}
+
+.eform-col-section .hover-download {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/bankbazaar-image/);
+    width: 108px;
+    height: 108px;
+    position: relative;
+    left: 3px;
+    top: 4px;
+    display: none;
+    background-repeat: no-repeat
+}
+
+.eform-col-section label:hover .hover-download {
+    display: block
+}
+
+.eform-download-all-icon {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/bankbazaar-image/);
+    position: relative;
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    top: 9px;
+    right: 8px
+}
+
+@media only screen and (max-width: 767px) {
+    .eform-slide-loader {
+        font-size:16px;
+        margin-top: 0;
+        padding-top: 20px
+    }
+
+    .eform-logo-experian .eform-btn-decline .error-msg {
+        top: 0;
+        display: inline-block;
+        text-decoration: none
+    }
+
+    .eform-col-section .hover-download {
+        background-image: url(https://s3-ap-southeast-1.amazonaws.com/bankbazaar-image/);
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        left: 45%;
+        top: 6px;
+        background-repeat: no-repeat;
+        display: block
+    }
+}
+
+.sprite-docupload-online {
+    background-image: url(/images/sprite/sprite-docupload-online-v5.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle
+}
+
+.eform-col-section .hover-download-done {
+    background-image: url(/images/sprite/sprite-uploaded-done.png);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 42%;
+    top: -6px;
+    background-repeat: no-repeat
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-docupload-online {
+        background-image:url(/images/sprite/sprite-docupload-online-mobile-v5.png);
+        width: 60px;
+        height: 60px
+    }
+
+    .eform-col-section .hover-download-done {
+        background-image: url(/images/sprite/sprite-uploaded-done.png);
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        left: 46%;
+        top: 6px;
+        background-repeat: no-repeat
+    }
+}
+
+.eform-disabled-icon {
+    pointer-events: none
+}
+
+.sprite-guarantor {
+    background-image: url(/images/sprite/sprite-guarantor.png);
+    height: 251px;
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-guarantor {
+        background-image:url(/images/sprite/sprite-guarantor-mob.png);
+        height: 120px
+    }
+}
+
+.sprite-dp-loan-cc-time {
+    background-image: url(/images/sprite/sprite-dp-loan-cc-time.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-dp-loan-cc-time {
+        background-image:url(/images/sprite/sprite-dp-loan-cc-time-mob.png);
+        width: 60px;
+        height: 60px
+    }
+}
+
+.sprite-aadhar-pmt-adrs {
+    background-image: url(/images/sprite/sprite-aadhar-pmt-adrs.png);
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 160px;
+    height: 195px
+}
+
+.sprite-aadhar-crnt-adrs {
+    background-image: url(/images/sprite/sprite-aadhar-crnt-adrs.png);
+    display: inline-block;
+    background-position: 0 200px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 160px;
+    height: 195px
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-aadhar-pmt-adrs {
+        background-image:url(/images/sprite/sprite-aadhar-pmt-adrs-mob.png);
+        width: 94px;
+        height: 118px
+    }
+
+    .sprite-aadhar-crnt-adrs {
+        background-image: url(/images/sprite/sprite-aadhar-crnt-adrs-mob.png);
+        width: 94px;
+        height: 118px
+    }
+}
+
+.sprite-dp-car-used {
+    background-image: url(/images/sprite/sprite-dp-car-used.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: 0 200px;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-dp-car-used {
+        background-image:url(/images/sprite/sprite-dp-car-used-mobile.png)
+    }
+}
+
+.sprite-aadhar-crnt-adrs-bank {
+    background-image: url(/images/sprite/sprite_aadhar_crnt_adrs_bank.png);
+    background-repeat: no-repeat;
+    background-position: 0 200px;
+    display: inline-block;
+    width: 185px;
+    height: 210px;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-aadhar-crnt-adrs-bank {
+        background-image:url(/images/sprite/sprite_aadhar_crnt_adrs_bank_mob.png);
+        width: 95px;
+        height: 115px
+    }
+}
+
+.sprite-existing-sbi-customer {
+    background-image: url(/images/sprite/sprite-existing-sbi-customer.png);
+    background-repeat: no-repeat;
+    background-position: 0 200px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-existing-sbi-customer {
+        background-image:url(/images/sprite/sprite-existing-sbi-customer-mob.png)
+    }
+}
+
+.loading-seconds {
+    background-image: url(/images/sprite/eform-ring-loader.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 29px;
+    text-align: center;
+    color: #3d6984
+}
+
+@media only screen and (max-width: 767px) {
+    .loading-seconds {
+        background-image:url(/images/sprite/eform-ring-loader-mob-v1.gif);
+        color: #88b6d0
+    }
+
+    .icon-miss-call {
+        background-position: -7px -611px
+    }
+}
+
+.eform-bg-share-mobile-no .icon-mobile,.eform-bg-verify-otp .icon-mobile {
+    background-position: -141px -5px;
+    vertical-align: middle;
+    width: 17px;
+    height: 28px
+}
+
+.eform-bg-share-mobile-no .eform-vertical-error .eform-input-group,.eform-bg-verify-otp .eform-vertical-error .eform-input-group,.eform-bg-verify-pan .eform-vertical-error .eform-input-group {
+    width: 300px
+}
+
+.eform-bg-share-mobile-no .withbtn .eform-input-icon,.eform-bg-verify-otp .withbtn .eform-input-icon,.eform-bg-verify-pan .withbtn .eform-input-icon {
+    padding: 6px
+}
+
+.eform-bg-verify-otp .icon-pwd {
+    background-position: -9px -156px;
+    height: 28px;
+    width: 17px
+}
+
+.eform-block {
+    color: #fff;
+    background: #3dbfd9;
+    position: relative
+}
+
+.eform-strip {
+    background: #40e0d0;
+    text-align: center
+}
+
+.eform-section {
+    text-align: center
+}
+
+.eform-btn {
+    margin: 20px 0
+}
+
+.eform-btn .btn {
+    font-size: 20px;
+    background-color: #ff5a5f;
+    padding: 8px 20px
+}
+
+.eform-btn .btn:hover {
+    background-color: #f76d71
+}
+
+.eform-skip {
+    font-size: 16px;
+    padding: 10px 10px;
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer
+}
+
+.eform-btn .pointer-arrow {
+    position: absolute;
+    margin-top: -12px
+}
+
+.outerborder {
+    padding: 10px;
+    background-color: rgba(255,255,255,0.1)
+}
+
+.eform-section-hg {
+    min-height: 380px
+}
+
+.eform-double-line {
+    min-height: 50px
+}
+
+.eform-strip h2 {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    font-weight: normal
+}
+
+.eform-section .eform-slide-header {
+    margin: 15px 0;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: normal;
+    clear: both
+}
+
+.eform-section label.eform-slide-header {
+    display: block
+}
+
+.eform-col {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    margin-bottom: 5px
+}
+
+.eform-col-section {
+    padding: 8px 10px;
+    display: block
+}
+
+.news-tagger-salary-deposited .eform-col-section {
+    padding: 0
+}
+
+.news-tagger-salary-deposited .eform-col-section label {
+    margin: 8px 10px
+}
+
+.eform-info {
+    display: block;
+    margin: 0 5px;
+    color: #fff;
+    line-height: normal;
+    padding-top: 10px
+}
+
+.eform-date-selection {
+    width: 509px;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 160px
+}
+
+.eform-year-picker {
+    width: 200px;
+    display: inline-block;
+    padding: 0 10px;
+    vertical-align: top
+}
+
+.eform-month-picker {
+    width: 300px;
+    display: inline-block;
+    padding: 0 10px;
+    vertical-align: top
+}
+
+.eform-thead {
+    background: #34495e;
+    border-radius: 6px 6px 0 0;
+    padding: 2px 0 2px 10px
+}
+
+.eform-thead p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    color: #fff
+}
+
+.eform-tcurve {
+    border-collapse: separate;
+    border: solid #ddd 1px;
+    border-radius: 6px;
+    border-left: 0;
+    border-top: 0;
+    background: #fff;
+    color: #34495e;
+    margin: 0 auto 5px;
+    text-align: center;
+    font-size: 14px
+}
+
+.eform-year-picker .eform-tcurve td {
+    padding: 0;
+    width: 100px
+}
+
+.eform-month-picker .eform-tcurve td {
+    padding: 0;
+    width: 100px
+}
+
+.eform-tcurve td a,.eform-tcurve th span {
+    display: block;
+    color: #34495e;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px
+}
+
+.eform-tcurve td,.eform-tcurve th {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd
+}
+
+.eform-tcurve td:hover {
+    background: #c8c8c8;
+    cursor: pointer
+}
+
+.eform-tcurve .selected a,.eform-tcurve .selected:hover {
+    background: #40e0d0;
+    color: #fff
+}
+
+.eform-thead p span {
+    color: #ffff7b
+}
+
+.year-month-table table {
+    width: 100%
+}
+
+.eform-tcurve>:first-child>:first-child>:first-child {
+    border-top-left-radius: 6px
+}
+
+.eform-tcurve>:first-child>:first-child>:last-child {
+    border-top-right-radius: 6px
+}
+
+.eform-tcurve>:last-child>:last-child>:first-child {
+    border-bottom-left-radius: 6px
+}
+
+.eform-social-icons {
+    background: #38acc9;
+    text-align: left
+}
+
+.eform-social-icons .fui-facebook,.eform-social-icons .fui-twitter,.eform-social-icons .fui-googleplus {
+    color: #63cce8
+}
+
+.eform-social-icons a {
+    margin-right: 10px;
+    font-size: 18px
+}
+
+.eform-social-icons a:hover span {
+    color: #0a7d9c
+}
+
+@media(max-width: 992px) {
+    .eform-social-icons a:first-child {
+        margin-left:0
+    }
+}
+
+.eform-input-group {
+    display: table;
+    margin: 20px auto;
+    width: 300px;
+    position: relative
+}
+
+.eform-input-icon {
+    background-color: #34495e;
+    border: 0 none;
+    vertical-align: middle;
+    border-radius: 4px 0 0 4px;
+    display: table-cell;
+    padding: 0 12px;
+    width: 25px
+}
+
+input.eform-input {
+    height: 40px;
+    display: table-cell;
+    border-radius: 0 4px 4px 0
+}
+
+.col-12 input.eform-input {
+    height: 30px;
+    border-radius: 4px
+}
+
+.eform-company-bg {
+    background-image: url(/images/sprite/company-bg-v1.png);
+    background-position: -5px 0;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 750px;
+    position: relative
+}
+
+.elig-employer {
+    margin: 0 auto;
+    padding: 188px 10px 0 10px;
+    position: relative;
+    width: 270px;
+    min-height: 400px
+}
+
+input.eform-company-input {
+    height: 38px;
+    margin-bottom: 10px
+}
+
+.company-options {
+    display: inline-table;
+    padding: 0 10px;
+    text-align: center;
+    bottom: 32px;
+    position: absolute;
+    left: 54px
+}
+
+.elig-employer input {
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #fff!important;
+    border-radius: 6px
+}
+
+.company-options a {
+    font-size: 12px;
+    line-height: 1.083;
+    padding: 6px 9px;
+    display: table-cell
+}
+
+.company-options a:first-child {
+    background-color: #555;
+    color: #888;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0
+}
+
+.company-options a:last-child {
+    background-color: #555;
+    color: #888;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0
+}
+
+.company-input-group {
+    min-height: 64px
+}
+
+.eform-tooltip {
+    opacity: 1;
+    right: 8px;
+    z-index: 0;
+    left: 309px;
+    top: -10px;
+    width: 100%
+}
+
+.eform-tooltip .eform-tooltip-inner {
+    background-color: #7af8bd;
+    color: #009e43;
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 4px;
+    max-width: 280px;
+    font-size: 14px
+}
+
+.eform-tooltip .tooltip-arrow {
+    border-right-color: #7af8bd;
+    border-width: 8px 9px 9px 0;
+    left: -8px;
+    top: 28%;
+    border-style: solid
+}
+
+.elig-employer select {
+    background: #fff;
+    -webkit-box-shadow: 0 0 2px #696969 inset;
+    -moz-box-shadow: 0 0 2px #696969 inset;
+    box-shadow: 0 0 2px #696969 inset;
+    border: 0 none;
+    color: #34495e;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    height: 38px;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 8px
+}
+
+.btn-toggle.company-options .active {
+    background-color: #3dbfd9;
+    color: #fff
+}
+
+.eform-block .error-msg {
+    position: absolute;
+    margin: 0 10px 0 15px;
+    top: 9px
+}
+
+.eform-block .error-msg .input-error-cl {
+    line-height: .6;
+    text-align: left;
+    display: table
+}
+
+.eform-block .input-error-left:after {
+    top: 10px;
+    left: -20px;
+    border-right-color: #f1c40f;
+    border-bottom-color: rgba(136,183,213,0)
+}
+
+.eform-block .error-msg .error-info {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0;
+    line-height: normal;
+    font-size: 15px
+}
+
+.eform-block .error-msg .error-icon {
+    display: table-cell
+}
+
+.eform-block .elig-employer .eform-slide-header {
+    margin: 20px 0 10px 0;
+    font-size: 22px
+}
+
+.eform-group {
+    position: relative;
+    width: 380px;
+    margin: 0 auto
+}
+
+.eform-company-tooltip {
+    left: 293px;
+    top: 45px
+}
+
+.eform-block .fui-radio-checked,.eform-block .fui-radio-unchecked {
+    display: inline-block;
+    font-family: 'Flat-UI-Icons';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.eform-block .fui-radio-checked:before {
+    content: "\e032"
+}
+
+.eform-block .fui-radio-unchecked:before {
+    content: "\e02b"
+}
+
+.pad-none {
+    padding: 0
+}
+
+.eform-col-section .checkbox:hover .second-icon,.radio:hover .second-icon {
+    opacity: 1!important
+}
+
+.eform-col-section {
+    display: inline-block;
+    float: none
+}
+
+.eform-col-section label {
+    padding: 8px 10px;
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 0
+}
+
+.eform-col-section label:hover,.eform-col-section label.checked {
+    background: #40e0d0;
+    border-radius: 5px
+}
+
+.elig-residence .eform-col-section label:hover,.elig-residence .eform-col-section label.checked {
+    background: #3dbfd9;
+    border-radius: 5px
+}
+
+.elig-residence .eform-col-section label.checked .eform-info {
+    color: #fff
+}
+
+.elig-residence .eform-col-section label:hover .second-icon {
+    color: #fff
+}
+
+.eform-col-section .radio .icons,.eform-col-section .checkbox .icons {
+    position: relative;
+    color: #fff;
+    margin: 5px auto 0;
+    font-size: 16px;
+    width: 17px
+}
+
+.eform-col-section .checkbox.checked .second-icon,.eform-col-section .radio.checked .second-icon {
+    color: #fff
+}
+
+.eform-col-section label input[type="checkbox"],.eform-col-section label input[type="radio"] {
+    display: none;
+    outline: medium none!important
+}
+
+.eform-radio,.eform-checkbox {
+    margin: 10px 0 0
+}
+
+.eform-info {
+    display: block;
+    margin: 0 5px;
+    color: #fff
+}
+
+.eform-col-section .checkbox.checked .second-icon,.eform-col-section .radio.checked .second-icon {
+    color: #fff
+}
+
+.eform-slider {
+    position: relative
+}
+
+.eform-block .slider-horizontal .slider-handle,.eform-slider-1,.eform-slider-2,.eform-slider-3,.eform-slider-4,.eform-slider-5,.eform-slider-6,.eform-slider-7,.eform-slider-8,.eform-slider-9,.eform-slider-10 {
+    background-image: url(/images/sprite/elig-slider-v6.png);
+    height: 80px
+}
+
+.eform-block .slider-horizontal .slider-handle {
+    margin-top: -34px;
+    outline: 0;
+    margin-left: -56px;
+    height: 115px;
+    width: 112px;
+    background-position: -13px -12px;
+    top: -17px;
+    position: absolute;
+    opacity: .8
+}
+
+.eform-slider-1 {
+    background-position: 0 -140px;
+    margin: 75px auto;
+    width: 810px
+}
+
+.eform-slider-2 {
+    background-position: 0 -270px;
+    margin: 60px auto;
+    width: 810px
+}
+
+.eform-slider-3 {
+    background-position: -136px -405px;
+    display: inline-block;
+    margin: 25px auto;
+    width: 533px
+}
+
+.eform-slider-4 {
+    background-position: -131px -537px;
+    margin: 0 auto 10px;
+    width: 531px
+}
+
+.elig-dob-1 .eform-slider-4 {
+    background-position: -131px -1308px;
+    margin: 0 auto 10px;
+    width: 531px
+}
+
+.eform-slider-5 {
+    background-position: -42px -673px;
+    margin: 75px auto;
+    width: 723px
+}
+
+.eform-slider-6 {
+    background-position: -38px -811px;
+    margin: 60px auto;
+    width: 730px;
+    position: relative
+}
+
+.eform-slider-7 {
+    background-position: -63px -947px;
+    position: relative;
+    margin: 60px auto;
+    width: 675px
+}
+
+.eform-slider-8 {
+    background-position: -41px -1193px;
+    position: relative;
+    margin: 60px auto;
+    width: 735px;
+    margin-top: 220px
+}
+
+.eform-slider-9 {
+    background-position: -131px -1308px;
+    margin: 0 auto 10px;
+    width: 531px
+}
+
+.eform-slider-10 {
+    background-position: 8px -1422px;
+    margin: 75px auto;
+    width: 812px
+}
+
+.slider-strip-dob {
+    background-image: url(/images/sprite/slider-bg-newstaggered-v1.png);
+    background-position: -131px -393px;
+    height: 80px;
+    margin: 0 auto 10px;
+    width: 531px
+}
+
+.eform-slider-income {
+    background-image: url(/images/sprite/hl-slider-bg1.png);
+    background-position: 2px 612px;
+    height: 80px;
+    margin: 60px auto;
+    width: 730px
+}
+
+.eform-section .slider.slider-horizontal {
+    width: 605px;
+    height: 70px;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 1
+}
+
+.eform-section .slider.slider-horizontal .slider-selection {
+    height: 100%;
+    top: 0;
+    bottom: 0
+}
+
+.eform-section .eform-slider-3 .slider.slider-horizontal {
+    margin: 0 auto 0 14px;
+    width: 346px
+}
+
+.eform-section .eform-slider-4 .slider.slider-horizontal {
+    width: 400px;
+    margin: 0 auto
+}
+
+.eform-section .eform-slider-5 .slider .tooltip {
+    width: 113px
+}
+
+.eform-section .eform-slider-7 .slider.slider-horizontal {
+    width: 507px
+}
+
+.eform-section .eform-slider-9 .slider.slider-horizontal {
+    width: 400px;
+    margin: 0 auto
+}
+
+.eform-section .eform-slider-10 .slider.slider-horizontal {
+    width: 540px;
+    margin: 0 auto
+}
+
+.eform-section .slider-track {
+    height: 10px;
+    width: 100%;
+    margin-top: -5px;
+    top: 57%;
+    left: 0;
+    background: 0;
+    box-shadow: none;
+    position: absolute;
+    cursor: pointer
+}
+
+.eform-section .slider .tooltip {
+    opacity: 1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 67px
+}
+
+.eform-section .eform-slider-4 .slider .tooltip {
+    width: 26px
+}
+
+.eform-section .slider .tooltip .tooltip-arrow {
+    opacity: 0
+}
+
+.eform-section .slider .tooltip-inner {
+    background-color: rgba(0,0,0,0);
+    color: #34495e;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 70px;
+    padding: 0;
+    text-align: center;
+    width: 214px;
+    max-width: 214px
+}
+
+.eform-section .eform-slider-9 .slider .tooltip {
+    width: 26px
+}
+
+.eform-section .eform-slider-10 .slider .tooltip {
+    width: 26px
+}
+
+.eform-slider-7 .slider-min-value,.eform-slider-7 .slider-max-value,.eform-slider-6 .slider-min-value,.eform-slider-6 .slider-max-value {
+    background: url(/images/sprite/rupee_icon_small.png) no-repeat scroll 0 6px transparent;
+    color: #34495e;
+    display: inline;
+    left: 61px;
+    position: absolute;
+    top: 11px;
+    padding-left: 12px;
+    line-height: 25px;
+    font-size: 12px
+}
+
+.eform-slider-7 .slider-max-value,.eform-slider-6 .slider-max-value {
+    right: 39px;
+    left: inherit
+}
+
+.eform-section .slider-strip-dob .slider .tooltip {
+    width: 26px
+}
+
+.eform-bg-age {
+    background-image: url(/images/sprite/age-bg.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 42% 30%
+}
+
+.residence-bg {
+    background-image: url(/images/sprite/residence-bg-v1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 450px
+}
+
+.elig-residence-container {
+    width: 420px;
+    position: relative;
+    margin: 0 auto;
+    top: 39px;
+    left: 24px
+}
+
+.elig-residence-container .eform-col-section {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 46%
+}
+
+.elig-residence-container .eform-col-section label {
+    padding: 4px;
+    text-align: left;
+    margin: 1px;
+    cursor: pointer;
+    line-height: 1.72222;
+    font-size: 14px
+}
+
+.elig-residence-container .eform-info {
+    display: inline-block;
+    color: #34495e;
+    font-size: 12px;
+    padding-top: 0
+}
+
+.elig-residence-container .eform-info label {
+    display: inline-block
+}
+
+.elig-residence-container .eform-col-section .radio .icons {
+    position: relative;
+    color: #ccc;
+    margin: 2px;
+    font-size: 16px;
+    display: inline-block;
+    float: left
+}
+
+.elig-residence-container .eform-col-section .radio .icons:hover {
+    color: #fff
+}
+
+.elig-residence-container .eform-col-section label:hover>span {
+    color: #fff
+}
+
+.table.eform-tcurve tr td {
+    padding: 0
+}
+
+.news-tagger-birthdate {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center
+}
+
+.news-tagger-birthdate input {
+    background: 0;
+    border: 0 none;
+    color: #ffff7b;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100px;
+    line-height: 15px;
+    display: inline-block;
+    padding: 0;
+    box-shadow: none
+}
+
+.birth-day-info {
+    background: #34495e;
+    border-radius: 6px;
+    padding: 2px;
+    width: 247px;
+    margin: 10px auto;
+    float: left;
+    line-height: 27px
+}
+
+.ui-datepicker .ui-datepicker-header {
+    display: none
+}
+
+.ui-datepicker {
+    width: auto;
+    border: 0 solid #1abc9c;
+    box-shadow: 0 0 0 rgba(52,73,94,0.06);
+    margin: 0;
+    background: transparent
+}
+
+.ui-datepicker-calendar>thead:first-child>tr:first-child>th {
+    border-bottom: 0;
+    border-top: solid #ddd 1px
+}
+
+.ui-datepicker-calendar td,.ui-datepicker-calendar th {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 0
+}
+
+.ui-datepicker td span,.ui-datepicker td a {
+    display: block;
+    text-decoration: none;
+    color: #34495e;
+    height: 30px;
+    line-height: 30px;
+    min-width: 34px
+}
+
+.ui-datepicker-calendar {
+    border-collapse: separate;
+    border: solid #ddd 1px;
+    border-radius: 6px;
+    border-left: 0;
+    border-top: 0;
+    background: #fff;
+    margin: 0 auto 15px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px
+}
+
+.ui-datepicker-calendar>:first-child>:first-child>:first-child {
+    border-top-left-radius: 6px
+}
+
+.ui-datepicker table {
+    font-size: 14px;
+    margin: 0 0 3px;
+    width: 100%
+}
+
+.ui-datepicker th {
+    color: #34495e;
+    min-width: 34px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    padding: 1px;
+    vertical-align: middle;
+    border-left: 1px solid #ddd
+}
+
+.ui-datepicker td a {
+    border-radius: 0
+}
+
+.dob-sub-heading p {
+    display: block
+}
+
+.ui-datepicker .ui-state-active,.news-tagger .ui-datepicker .ui-state-active:hover {
+    border-radius: 0;
+    background: #40e0d0;
+    color: #fff
+}
+
+.ui-datepicker td a:hover {
+    background: #c8c8c8
+}
+
+.month-picker.dontshow {
+    display: none
+}
+
+.dob-sub-heading p span {
+    color: #ffff7b
+}
+
+.eform-input-group input {
+    height: 48px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    font-size: 17px;
+    background: #fff!important
+}
+
+.eform-section .date-selection {
+    width: 509px;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 165px
+}
+
+.eform-section .dob-sub-heading,.eform-section .year-sub-heading {
+    background: #34495e;
+    border-radius: 6px;
+    padding: 5px 7px;
+    float: none
+}
+
+.eform-section .dob-sub-heading p,.eform-section .year-sub-heading p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px
+}
+
+.eform-section .news-tagger-content {
+    padding-top: 10px
+}
+
+.twitter-typeahead {
+    width: 100%
+}
+
+.twitter-typeahead .tt-dropdown-menu {
+    background: #fff;
+    border: 0 none;
+    color: #34495e;
+    box-shadow: 0 0 2px #696969 inset;
+    width: 100%;
+    text-transform: uppercase!important;
+    height: 170px;
+    overflow-y: scroll;
+    text-align: left;
+    margin-top: 5px;
+    border-radius: 6px
+}
+
+.tt-suggestion p {
+    padding: 10px;
+    margin: 0 2px
+}
+
+.tt-suggestion p:hover {
+    background-color: #eee;
+    cursor: pointer
+}
+
+.elig-employer .eform-tooltip {
+    left: 293px;
+    top: 212px
+}
+
+.elig-employer .eform-tooltip .tooltip-arrow {
+    top: 41%
+}
+
+.recoMsg {
+    position: absolute;
+    top: 12px;
+    right: 10px
+}
+
+.elig-employer .eform-input-group {
+    display: block;
+    margin: 0;
+    width: 100%
+}
+
+.elig-employer .eform-input-group input {
+    height: 40px
+}
+
+.elig-employer .eform-tooltip {
+    left: 284px;
+    top: -23px
+}
+
+.eform-section .loading-circle {
+    padding-left: 40px;
+    background-image: url(/images/landing/loading-circle-v1.gif);
+    background-repeat: no-repeat;
+    background-position: 10px 10px
+}
+
+.eform-section .pointing-arrow {
+    position: absolute;
+    margin-top: -12px
+}
+
+.pointing-arrow.dontshow {
+    display: none!important
+}
+
+.elig-col-two-container {
+    width: 600px;
+    margin: 0 auto
+}
+
+.sprite-symbols {
+    background-image: url(/images/sprite/sprite-for-symbols-v3.png);
+    background-repeat: no-repeat
+}
+
+.symbols-lock {
+    background-position: -9px -110px;
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    margin-right: 8px
+}
+
+.elig-contact .eform-tooltip-inner {
+    position: absolute
+}
+
+.elig-contact .authorize-section .error-msg {
+    left: -13px
+}
+
+.elig-contact .eform-tooltip .tooltip-arrow {
+    margin-top: 10px
+}
+
+.elig-contact .eform-tooltip {
+    top: 6px;
+    left: 388px
+}
+
+.elig-employer-container .error-msg {
+    top: 10px;
+    position: relative;
+    margin: 0
+}
+
+.eform-block .carousel-inner {
+    min-height: 540px
+}
+
+.privacy {
+    margin-top: 20px;
+    padding: 20px;
+    line-height: 20px
+}
+
+.privacy input[type="checkbox"] {
+    display: none
+}
+
+.privacy .checkbox.checked .second-icon,.privacy .checkbox .icons {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.2
+}
+
+.privacy .icons .fui-checkbox-unchecked::before {
+    border: medium none
+}
+
+.privacy a,.contactme-slide-additional-line a {
+    text-decoration: underline;
+    color: #fff
+}
+
+.contactme-slide-additional-line {
+    position: relative;
+    padding-top: 5px;
+    line-height: normal;
+    display: inline;
+    color: #fff;
+    font-size: 16px
+}
+
+.authorize-section .validate {
+    font-size: 12px
+}
+
+.eform-logo-experian .contactme-slide-additional-line {
+    font-size: 14px
+}
+
+.icon-by-city {
+    background-position: -92px -49px!important;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle
+}
+
+.icon-by-car {
+    background-position: -55px -115px!important;
+    width: 28px;
+    height: 20px;
+    vertical-align: middle
+}
+
+.news-tagger-city .eform-info,.news-tagger-city .city-name {
+    font-weight: bold;
+    font-size: 16px
+}
+
+.news-tagger-city .city-name,.news-tagger-car-modal .eform-info,.news-tagger-salary-deposited .eform-info {
+    margin-bottom: 8px
+}
+
+.radio .ns-other-city input[type="text"] {
+    font-size: 12px;
+    border-radius: 4px;
+    height: 34px;
+    padding: 6px 12px;
+    border: 1px solid #ccc
+}
+
+.news-tagger-city {
+    margin-top: 60px
+}
+
+.newstaggered-modal .form-group .twitter-typeahead {
+    display: table-cell!important
+}
+
+.screen-block-grey {
+    background: rgba(0,0,0,0.8) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999
+}
+
+.screen-block-blue {
+    background: #3b5261 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999
+}
+
+.screen-block-z-index {
+    position: relative;
+    z-index: 999
+}
+
+.eform-block .close-btn {
+    top: -27px
+}
+
+.newstaggered-modal .form-group .twitter-typeahead {
+    display: table-cell!important
+}
+
+@media(max-width: 1200px) {
+    .eform-company-bg {
+        width:750px!important
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width:768px) {
+    .news-tagger-city {
+        margin-top:0
+    }
+
+    .eform-section .eform-slide-header {
+        font-size: 20px
+    }
+
+    .eform-tooltip {
+        display: none
+    }
+
+    .elig-residence-container {
+        top: 46px
+    }
+
+    .news-tagger-age-picker-pc .col-md-6 {
+        padding: 0
+    }
+
+    .eform-section .slider .tooltip-inner {
+        font-size: 16px;
+        top: -11px;
+        position: relative;
+        left: -7px
+    }
+
+    .eform-section .slider .tooltip-inner {
+        font-size: 16px;
+        top: -6px;
+        position: relative;
+        left: 3px
+    }
+
+    .eform-section .eform-slider-5 .slider .tooltip-inner {
+        top: -4px;
+        left: 5px
+    }
+
+    .eform-block .slider-horizontal .slider-handle,.eform-slider-1,.eform-slider-2,.eform-slider-3,.eform-slider-4,.eform-slider-5,.eform-slider-6,.eform-slider-7,.eform-slider-8,.eform-slider-9,.eform-slider-10 {
+        background-image: url(/images/sprite/elig-slider-tab-v6.png)
+    }
+
+    .eform-block .slider-horizontal .slider-handle {
+        outline: 0;
+        z-index: 1;
+        margin-left: -37px;
+        background-position: -19px -14px;
+        height: 85px;
+        opacity: .8;
+        position: absolute;
+        margin-top: -24px;
+        width: 80px
+    }
+
+    .eform-slider-1 {
+        background-position: 0 -112px;
+        width: 705px;
+        height: 70px
+    }
+
+    .eform-slider-2 {
+        background-repeat: no-repeat;
+        background-position: 54px -223px
+    }
+
+    .eform-slider-3 {
+        background-position: -121px -343px;
+        margin: 20px auto 0;
+        width: 455px
+    }
+
+    .eform-slider-4 {
+        background-position: -111px -457px;
+        width: 462px;
+        margin-bottom: 40px
+    }
+
+    .elig-dob-1 .eform-slider-4 {
+        background-position: -111px -1128px;
+        width: 462px;
+        margin-bottom: 40px
+    }
+
+    .eform-slider-5 {
+        background-position: -40px -564px;
+        background-repeat: no-repeat;
+        width: 620px;
+        padding: 4px 20px
+    }
+
+    .eform-slider-6 {
+        background-repeat: no-repeat;
+        background-position: 6px -688px
+    }
+
+    .eform-slider-7 {
+        background-position: -33px -813px;
+        background-repeat: no-repeat;
+        width: 620px
+    }
+
+    .eform-slider-8 {
+        background-position: -41px -1028px;
+        background-repeat: no-repeat;
+        margin-top: 188px;
+        width: 620px
+    }
+
+    .eform-slider-9 {
+        background-position: -111px -1128px;
+        width: 462px;
+        margin-bottom: 40px
+    }
+
+    .eform-slider-10 {
+        background-position: -42px -2571px;
+        width: 620px;
+        margin-bottom: 40px
+    }
+
+    .slider-strip-dob {
+        background: url(/images/landing/slider-tab-bg-v1.png) no-repeat;
+        background-position: -121px -341px;
+        width: 462px;
+        margin-bottom: 40px
+    }
+
+    .eform-section .eform-slider-1 .slider.slider-horizontal {
+        width: 522px
+    }
+
+    .eform-section .eform-slider-2 .slider.slider-horizontal {
+        width: 520px
+    }
+
+    .eform-section .eform-slider-3 .slider.slider-horizontal {
+        width: 310px
+    }
+
+    .eform-section .eform-slider-4 .slider.slider-horizontal {
+        width: 350px
+    }
+
+    .eform-section .eform-slider-5 .slider.slider-horizontal {
+        width: 510px
+    }
+
+    .eform-section .eform-slider-6 .slider.slider-horizontal {
+        width: 509px
+    }
+
+    .eform-section .eform-slider-7 .slider.slider-horizontal {
+        width: 450px
+    }
+
+    .eform-section .eform-slider-8 .slider.slider-horizontal {
+        width: 504px
+    }
+
+    .eform-section .eform-slider-9 .slider.slider-horizontal {
+        width: 350px
+    }
+
+    .eform-section .eform-slider-10 .slider.slider-horizontal {
+        width: 452px
+    }
+
+    .eform-section .slider-strip-dob .slider.slider-horizontal {
+        width: 350px
+    }
+
+    .eform-bg-age {
+        background-position: 40% 30%;
+        background-size: 64%
+    }
+
+    .eform-slider-6 .slider-max-value {
+        right: 93px;
+        left: inherit;
+        top: 7px
+    }
+
+    .eform-slider-6 .slider-min-value {
+        top: 7px;
+        left: 96px
+    }
+
+    .eform-slider-7 .slider-max-value,.eform-slider-7 .slider-min-value {
+        top: 8px
+    }
+
+    .news-tagger-birthdate input {
+        width: 103px
+    }
+
+    .eform-tooltip.tooltip {
+        display: none
+    }
+
+    .elig-contact .eform-tooltip.tooltip,.elig-employer .eform-tooltip.tooltip {
+        display: block
+    }
+
+    .elig-employer .eform-tooltip .eform-tooltip-inner {
+        max-width: 215px
+    }
+
+    .elig-employer .eform-tooltip.tooltip {
+        top: -33px
+    }
+
+    .elig-col-two-container .tooltip {
+        display: none!important
+    }
+
+    .sip-start-date .eform-vertical-error .error-msg {
+        width: 248px
+    }
+}
+
+.ns-other-city .form-control[readonly] {
+    cursor: text
+}
+
+.elig-contact .error-msg {
+    position: relative;
+    top: -10px;
+    display: block;
+    width: 380px;
+    margin: 0 auto -10px
+}
+
+.elig-contact .eform-input-group {
+    width: 380px
+}
+
+.authorize-section {
+    position: relative;
+    display: inline
+}
+
+.authorize-section .error-msg {
+    left: -28px;
+    top: 25px;
+    width: 240px;
+    position: absolute
+}
+
+.container-catstyle {
+    width: 100%
+}
+
+.authorize-section label.checkbox {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    display: inline;
+    position: relative
+}
+
+.news-tagger-age-picker-pc .news-tagger-date-picker {
+    padding: 0 10px
+}
+
+.eform-section .progress-striped {
+    background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,0.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,0.15)),color-stop(0.75,rgba(255,255,255,0.15)),color-stop(0.75,transparent),to(transparent));
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+    background-image: -moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+    background-image: -o-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+    background-image: linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+    -webkit-background-size: 40px 40px;
+    -moz-background-size: 40px 40px;
+    -o-background-size: 40px 40px;
+    background-size: 40px 40px
+}
+
+.eform-section .progress.active {
+    cursor: default;
+    font-size: 20px;
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -moz-animation: progress-bar-stripes 2s linear infinite;
+    -ms-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite
+}
+
+@-webkit-keyframes progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
+
+@keyframes progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
+
+.eform-block .tooltip-inner::selection {
+    color: #34495e;
+    background: transparent
+}
+
+.eform-block .tooltip-inner::-moz-selection {
+    color: #34495e;
+    background: transparent
+}
+
+.eform-col-section .tooltip-inner {
+    background-color: #7af8bd;
+    color: #009e43;
+    white-space: normal;
+    cursor: pointer;
+    padding: 10px 15px;
+    width: 170px;
+    max-width: 170px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 12px
+}
+
+.eform-col-section .tooltip.right .tooltip-arrow {
+    border-right-color: #7af8bd;
+    border-width: 9px 9px 9px 0;
+    left: -3px;
+    margin-top: -9px
+}
+
+.eform-col-section .tooltip.left .tooltip-arrow {
+    border-left-color: #7af8bd;
+    border-width: 9px 0 9px 9px;
+    margin-top: -9px;
+    right: -3px
+}
+
+.cc-others dl.checkbox-dropdown {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    margin-top: 2px
+}
+
+.checkbox-dropdown dd,.checkbox-dropdown dt {
+    margin: 0;
+    padding: 0
+}
+
+.checkbox-dropdown dd {
+    position: relative
+}
+
+.checkbox-dropdown dt a {
+    background-color: #fff;
+    border: 0 none;
+    border-radius: 6px;
+    display: block;
+    padding: 5px 0;
+    color: #34495e;
+    width: 100%
+}
+
+.checkbox-dropdown dt a span,.multiSel span {
+    cursor: pointer;
+    padding: 0
+}
+
+.card-bank .multiSel {
+    font-size: 13px;
+    line-height: normal;
+    margin-bottom: 0;
+    text-align: center
+}
+
+.checkbox-dropdown dd ul {
+    display: none;
+    background-color: #fff;
+    border: 0 none;
+    border-radius: 3px;
+    color: #34495e;
+    height: 75px;
+    left: 0;
+    list-style: outside none none;
+    overflow-y: scroll!important;
+    padding: 2px 0;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+.checkbox-dropdown dd ul li label {
+    font-size: 12px
+}
+
+.card-bank .cc-others-value {
+    display: block;
+    font-size: 13px;
+    line-height: normal;
+    padding: 5px 0
+}
+
+.eform-col-section .checkbox-dropdown input[type="checkbox"],.eform-col-section .checkbox-dropdown input[type="checkbox"]:checked {
+    display: block;
+    border-radius: 3px;
+    height: 15px;
+    margin: 0 4px 0 0;
+    padding: 0;
+    vertical-align: text-top;
+    width: 15px
+}
+
+.eform-col-section .checkbox-dropdown label:hover,.eform-col-section .checkbox-dropdown label.checked {
+    background: 0
+}
+
+.eform-col-section .checkbox-dropdown label .icons {
+    display: none
+}
+
+.eform-section .checkbox label {
+    padding: 0
+}
+
+.dontshow {
+    display: none
+}
+
+.insurance-content .eform-insurance {
+    width: 100%
+}
+
+.izone-section-header .pad-control {
+    padding: 0
+}
+
+.elig-thankyou .contactme-slide-additional-line {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 15px
+}
+
+.elig-thankyou .contactme-slide-additional-line a {
+    color: #16a085;
+    text-decoration: none
+}
+
+.adult-section,.child-section {
+    display: table
+}
+
+.adult-section label {
+    width: 118px;
+    color: #34495e
+}
+
+.child-section label {
+    width: 46px;
+    color: #34495e
+}
+
+.adult-section label .eform-info,.child-section label .eform-info {
+    color: #34495e;
+    padding: 3px
+}
+
+.eform-members label:hover {
+    background: #c8c8c8;
+    border-radius: 0
+}
+
+.eform-members .eform-col-section .radio .icons {
+    display: none
+}
+
+.eform-members .eform-col-section {
+    padding: 0
+}
+
+.eform-members .col-md-4 {
+    margin: 40px;
+    width: 240px
+}
+
+.age-sub-heading {
+    background: #34495e;
+    margin-top: 20px;
+    padding: 0!important;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px
+}
+
+.eform-members .eform-col-section label.age-sub-heading:hover {
+    background: #34495e
+}
+
+.eform-members .eform-col-section label.checked:hover {
+    background: #40e0d0
+}
+
+.adult-section-inner,.child-section-inner {
+    display: table-cell;
+    border: 1px solid #ddd;
+    background: #f4f5f7
+}
+
+.eform-members .eform-col-section label.checked {
+    border-radius: 0
+}
+
+.eform-members .eform-col-section label.checked .eform-info {
+    color: #fff
+}
+
+.adult-section-inner:first-child,.child-section-inner:first-child {
+    border-bottom-left-radius: 6px
+}
+
+.adult-section-inner:last-child,.child-section-inner:last-child {
+    border-bottom-right-radius: 6px
+}
+
+.adult-section-inner:first-child label.checked,.child-section-inner:first-child label.checked {
+    border-bottom-left-radius: 6px
+}
+
+.adult-section-inner:last-child label.checked,.child-section-inner:last-child label.checked {
+    border-bottom-right-radius: 6px
+}
+
+.eform-dropdown {
+    position: relative
+}
+
+.eform-dropdown .bb-search-action-dropdown .btn-info {
+    background-color: #fff;
+    box-shadow: 0 0 2px #696969 inset;
+    color: #333;
+    width: 100%
+}
+
+.eform-dropdown button {
+    border: 0 none;
+    border-radius: 5px;
+    display: inline-block;
+    height: 48px;
+    line-height: normal;
+    outline: 0 none
+}
+
+.eform-dropdown-group .eform-dropdown button {
+    border-radius: 0 5px 5px 0
+}
+
+.eform-dropdown .dropdown-menu {
+    background-color: #f3f4f5;
+    border: 0;
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    opacity: 0;
+    padding: 0;
+    visibility: hidden;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: .25s;
+    transition: .25s;
+    border-radius: 6px;
+    z-index: 10000;
+    min-width: 100%;
+    height: 186px;
+    width: 100%
+}
+
+.eform-dropdown .open>.dropdown-menu {
+    margin-top: 18px;
+    opacity: 1;
+    visibility: visible;
+    max-height: 186px;
+    overflow-x: hidden
+}
+
+.eform-dropdown .caret {
+    border-bottom: 8px none #34495e;
+    border-style: solid solid none;
+    border-top: 8px solid #34495e;
+    border-width: 8px 7px
+}
+
+.eform-dropdown .select .btn {
+    padding: 0;
+    text-align: left
+}
+
+.eform-dropdown .select .btn .filter-option {
+    left: 11px;
+    overflow: hidden;
+    position: absolute;
+    right: 33px;
+    top: 17px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.eform-dropdown .select .btn .caret {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    margin-top: -3px;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent
+}
+
+.eform-dropdown .open>.dropdown-arrow {
+    margin-top: 11px!important;
+    opacity: 1
+}
+
+.eform-dropdown .dropdown-arrow {
+    border-style: solid;
+    border-width: 0 8px 7px;
+    border-color: transparent transparent #f3f4f5;
+    height: 0;
+    margin-top: 0;
+    opacity: 0;
+    position: absolute;
+    right: 19px;
+    top: 100%;
+    width: 0;
+    z-index: 10;
+    -webkit-transform: rotate(360deg);
+    -webkit-transition: .25s;
+    transition: .25s
+}
+
+.eform-dropdown .select>.dropdown-menu li.selected>a {
+    background-color: #ccc;
+    border: 0 none;
+    border-radius: 0;
+    color: #333;
+    height: auto
+}
+
+.eform-dropdown .dropdown-menu li>a {
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429
+}
+
+.eform-dropdown .dropdown-menu li a:before,.dropdown-menu li a:after {
+    content: " ";
+    display: table
+}
+
+.eform-dropdown .dropdown-menu li a:after {
+    clear: both
+}
+
+.eform-dropdown .dropdown-menu li a:before {
+    float: right;
+    margin-top: 3px
+}
+
+.eform-dropdown .dropdown-menu li a:hover {
+    background: #ccc
+}
+
+.eform-input-group.eform-dropdown-group {
+    width: 300px
+}
+
+.eform-dropdown-hg .eform-dropdown .dropdown-menu {
+    height: 234px
+}
+
+.eform-dd-upload {
+    padding: 20px 30px;
+    width: 375px;
+    background-color: #44aac0;
+    margin-bottom: 5px
+}
+
+.eform-dd-upload .eform-dropdown button {
+    height: 40px
+}
+
+.eform-dd-upload .select .btn {
+    color: #5a5a5a;
+    box-shadow: none;
+    border-radius: 5px;
+    position: relative
+}
+
+.eform-dd-upload .select .btn .filter-option {
+    text-transform: inherit;
+    font-size: 14px;
+    top: 12px
+}
+
+.eform-dd-upload .open>.dropdown-menu {
+    margin-top: -2px;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff
+}
+
+.eform-dd-upload .dropdown-menu li {
+    border-bottom: 1px solid #ccc
+}
+
+.eform-dd-upload .dropdown-menu li a {
+    padding: 7px 20px
+}
+
+.eform-dd-upload .dropdown-arrow {
+    display: none
+}
+
+.eform-dd-upload .select .btn .caret,.eform-dd-upload .select.open .btn .caret {
+    height: 40px;
+    width: 35px;
+    top: 3px;
+    background-repeat: no-repeat;
+    background-position: 16px 15px;
+    border: 0 none;
+    border-left: 1px solid #ccc
+}
+
+.eform-dd-upload .select .btn .caret {
+    background-image: url(/images/datadriven/downarrow.png)
+}
+
+.eform-dd-upload .select.open .btn .caret {
+    background-image: url(/images/datadriven/uparrow.png)
+}
+
+.eform-dd-upload-disable .select .btn {
+    background-color: #ededed;
+    pointer-events: none;
+    cursor: default
+}
+
+.eform-dd-upload .eform-dropdown .error-msg {
+    left: 0;
+    width: 100%;
+    margin: 0;
+    top: 50px
+}
+
+.eform-dd-upload .select .btn .filter-option {
+    width: 248px
+}
+
+.eform-dropdown .bb-search-action-dropdown .btn {
+    background-color: #fff!important
+}
+
+.eform-upload-container {
+    margin-top: 10px;
+    background-color: #fff;
+    height: 40px;
+    position: relative;
+    border-radius: 5px
+}
+
+.eform-upload-container input {
+    height: 40px;
+    width: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.eform-upload-placeholder {
+    float: left;
+    color: #5a5a5a;
+    width: 70%;
+    position: relative;
+    text-align: left;
+    padding: 8px 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none
+}
+
+.btn-eform-upload {
+    float: left;
+    width: 30%;
+    background-color: #ff5a5f;
+    border-radius: 0 5px 5px 0
+}
+
+.btn-eform-upload .upload-text-style {
+    color: #fff;
+    position: absolute;
+    top: 7px;
+    width: 98px;
+    font-size: 14px
+}
+
+.icon-upload-attachment {
+    background-image: url(/images/datadriven/pin-icon.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 32px;
+    color: #7087d3
+}
+
+::-webkit-file-upload-button {
+    cursor: pointer
+}
+
+.btn-upload-disable {
+    background-color: #a19fa0
+}
+
+.btn-upload-disable input {
+    pointer-events: none;
+    cursor: default
+}
+
+.eform-upload-info {
+    color: #fff;
+    font-size: 11px;
+    text-align: left;
+    padding-top: 5px
+}
+
+.btn-eform-upload .error-msg {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    margin: 0;
+    width: 100%
+}
+
+.eform-upload-close {
+    background-image: url(/images/datadriven/dd-close.png);
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent
+}
+
+.eform-upload-close:hover {
+    background-color: transparent
+}
+
+.eform-upload-more {
+    margin: 15px auto 0;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    padding: 2px 8px;
+    border: 1px solid #fff
+}
+
+.btn-eform-remove {
+    float: left;
+    width: 30%;
+    background-color: #ff5a5f;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    padding: 9px 8px 10px
+}
+
+.btn-eform-upload:hover,.btn-eform-remove:hover {
+    background-color: #f76d71
+}
+
+.elig-col-two-input-container {
+    width: 680px;
+    margin: 0 auto
+}
+
+.e-link {
+    display: block;
+    margin: 20px 0;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.eform-description {
+    padding: 20px 0;
+    font-size: 18px
+}
+
+.eform-description label {
+    display: block
+}
+
+.eform-input-disable {
+    opacity: .5
+}
+
+.eform-input-sublink {
+    width: 300px;
+    margin: -10px auto 0;
+    text-align: right
+}
+
+.eform-input-sublink a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 12px
+}
+
+.eform-success-img {
+    margin: 10px auto 0
+}
+
+.eform-input-sublink-edit {
+    width: 30px;
+    margin: -10px auto 0;
+    position: relative;
+    left: 135px
+}
+
+.eform-input-sublink-otp {
+    width: 80px;
+    left: 110px;
+    margin: -10px auto 0;
+    position: relative
+}
+
+.bbicons-loc {
+    background-position: -8px -148px!important;
+    vertical-align: middle;
+    width: 28px;
+    height: 32px
+}
+
+.bbicons-doc {
+    background-position: -42px -149px!important;
+    vertical-align: middle;
+    width: 28px;
+    height: 32px
+}
+
+.bbicons-ifsc {
+    background-position: -77px -148px!important;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 34px;
+    height: 34px
+}
+
+.bbicons-download {
+    background-position: -115px -148px!important;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 34px;
+    height: 34px
+}
+
+.sprite-eligslider {
+    background-image: url(/images/sprite/sprite-landingpage-v3.png)!important
+}
+
+.eform-modal .modal-header {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0 0
+}
+
+.eform-modal .modal-header .close {
+    margin-top: 5px
+}
+
+.eform-modal .modal-title {
+    font-size: 20px;
+    text-align: left
+}
+
+.eform-modal .modal-body {
+    padding: 15px
+}
+
+.eform-modal .modal-footer {
+    text-align: center;
+    border: 0
+}
+
+.eform-modal .submit-button-block {
+    margin: 20px 0 20px
+}
+
+.esign-loading-modal .tkvr-modal-dialog {
+    margin-top: 10%;
+    text-align: center
+}
+
+.eform-modal .eform-input-group {
+    margin: 10px auto 20px
+}
+
+.elig-code {
+    color: #34495e;
+    text-align: left;
+    font-weight: 600
+}
+
+.elig-code-value {
+    font-weight: normal;
+    padding-left: 10px
+}
+
+.elig-code-info {
+    display: block;
+    font-size: 12px;
+    color: #9ea6ad
+}
+
+.elig-app-page {
+    padding-top: 30px
+}
+
+.eform-vertical-error .error-msg {
+    position: relative;
+    top: -10px;
+    display: block;
+    width: 300px;
+    margin: 0 auto -10px
+}
+
+.eform-no-group input {
+    border-radius: 5px
+}
+
+.modal-medium {
+    width: 700px
+}
+
+.elig-app-page .eform-block .carousel-inner {
+    min-height: 460px
+}
+
+.elig-app-page .eform-section-hg {
+    min-height: 320px
+}
+
+.clearleft {
+    clear: left
+}
+
+.success-modal-body .final-payment-modal-box {
+    width: 70%
+}
+
+.success-modal-body p {
+    margin-bottom: 15px;
+    font-size: 16px
+}
+
+.success-modal-body .modal-body .small-txt {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0
+}
+
+.success-modal-body .rocket-popup {
+    float: left;
+    width: 24%;
+    margin: 13px 0 0 0
+}
+
+.success-modal-body .modal-paragraph {
+    padding: 0;
+    text-align: center
+}
+
+.success-modal-body img {
+    max-width: 100%
+}
+
+.success-modal-body .modal-content {
+    background: 0;
+    border: 0;
+    box-shadow: none
+}
+
+.success-modal-body .final-payment-modal-box {
+    color: #fff
+}
+
+.success-modal-body .modal-body .large-txt {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    padding: 0 22px;
+    line-height: 27px
+}
+
+.success-modal-body .modal-body .small-txt {
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: center
+}
+
+.success-modal-body .modal-paragraph {
+    padding: 0 0 0 192px
+}
+
+.success-modal-body .call-section-inner>img {
+    float: left;
+    margin-top: -9px;
+    padding: 0 10px 0 0
+}
+
+.success-modal-body .call-section {
+    background: none!important;
+    width: 378px;
+    padding: 17px 43px 17px 21px;
+    border-radius: 5px;
+    margin: 0 auto 0
+}
+
+.success-modal-body .call-section-inner {
+    padding-bottom: 12px
+}
+
+.success-modal-body .phone-number {
+    height: 62px;
+    text-align: center
+}
+
+.success-modal-body .phone-number span {
+    background: #1abc9c;
+    border-radius: 0 6px 6px 0;
+    display: inline-block;
+    height: 50px;
+    padding: 7px 25px 0 13px;
+    vertical-align: middle;
+    font-size: 22px;
+    margin-left: -5px
+}
+
+.success-modal-body .phone-number img {
+    vertical-align: middle
+}
+
+.success-modal-body .call-section-inner p {
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 0;
+    margin: 0
+}
+
+.success-modal-body .call-section-inner .call-us {
+    padding: 10px;
+    width: 345px
+}
+
+.success-modal-body .call-section-bg {
+    background: transparent
+}
+
+.success-modal-body .payment-success-modal {
+    float: left;
+    width: 76%
+}
+
+.success-modal-body .rocket-popup-mobile {
+    display: block
+}
+
+.success-modal-body .modal-body .large-txt span {
+    display: none
+}
+
+.success-modal-body .rocket-popup-mobile {
+    display: none
+}
+
+.icon-by-bank {
+    background-position: -2px -118px!important;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle
+}
+
+@media screen and (max-width: 1024px) {
+    .success-modal-body .payment-success-modal {
+        float:none;
+        width: auto
+    }
+}
+
+.pad-none {
+    padding: 0
+}
+
+.eform-btn-center button {
+    margin-left: 250px
+}
+
+.esign-loading-modal p {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 50px
+}
+
+.eform-dropdown .bb-search-action-dropdown {
+    line-height: normal
+}
+
+.clearfix {
+    clear: both
+}
+
+.eform-mf-bg {
+    background-image: url(/images/common/mutal-fund-bg-desk-v1.png);
+    background-repeat: no-repeat;
+    background-position: center 65px;
+    min-height: 380px!important
+}
+
+.eform-mf-bg-main {
+    width: 100%;
+    background-image: url(/images/common/mutal-fund-bg-desk-main.png);
+    background-repeat: repeat
+}
+
+.tnc-container .privacy {
+    width: 70%;
+    margin: 20px auto 0
+}
+
+.eform-credit-score-bg {
+    background-image: url(/images/landing/slider-ct-gauge-desktop-v1.gif);
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    min-height: 380px
+}
+
+@media only screen and (max-width: 768px) {
+    .eform-mf-bg {
+        min-height:400px!important;
+        background-size: 680px
+    }
+}
+
+.adult-section,.child-section {
+    display: table
+}
+
+.adult-section label {
+    width: 118px;
+    color: #34495e
+}
+
+.child-section label {
+    width: 46px;
+    color: #34495e
+}
+
+.adult-section label .eform-info,.child-section label .eform-info {
+    color: #34495e;
+    padding: 3px
+}
+
+.eform-members label:hover {
+    background: #c8c8c8;
+    border-radius: 0
+}
+
+.eform-members .eform-col-section .radio .icons {
+    display: none
+}
+
+.eform-members .eform-col-section {
+    padding: 0
+}
+
+.eform-members .col-md-4 {
+    margin: 40px;
+    width: 240px
+}
+
+.age-sub-heading {
+    background: #34495e;
+    margin-top: 20px;
+    padding: 0!important;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px
+}
+
+.eform-members .eform-col-section label.age-sub-heading:hover {
+    background: #34495e
+}
+
+.eform-members .eform-col-section label.checked:hover {
+    background: #40e0d0
+}
+
+.adult-section-inner,.child-section-inner {
+    display: table-cell;
+    border: 1px solid #ddd;
+    background: #f4f5f7
+}
+
+.eform-members .eform-col-section label.checked {
+    border-radius: 0
+}
+
+.eform-members .eform-col-section label.checked .eform-info {
+    color: #fff
+}
+
+.adult-section-inner:first-child,.child-section-inner:first-child {
+    border-bottom-left-radius: 6px
+}
+
+.adult-section-inner:last-child,.child-section-inner:last-child {
+    border-bottom-right-radius: 6px
+}
+
+.adult-section-inner:first-child label.checked,.child-section-inner:first-child label.checked {
+    border-bottom-left-radius: 6px
+}
+
+.adult-section-inner:last-child label.checked,.child-section-inner:last-child label.checked {
+    border-bottom-right-radius: 6px
+}
+
+.ebinary-option {
+    width: 154px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 20px
+}
+
+.ebinary-option label:hover {
+    background: 0
+}
+
+.ebinary-option label.checked {
+    background: #cdcfd0;
+    border-radius: 0;
+    border-color: #cdcfd0
+}
+
+.ebinary-option .ebinary-btn {
+    display: table-cell;
+    border: 1px solid #cdcfd0;
+    background: #fff;
+    padding: 0
+}
+
+.ebinary-option .ebinary-btn:hover {
+    background: #cdcfd0
+}
+
+.ebinary-option .icons {
+    display: none
+}
+
+.ebinary-option .eform-info {
+    color: #000;
+    padding: 0
+}
+
+.ebinary-option .eform-col-section label {
+    width: 75px;
+    padding: 10px
+}
+
+.ebinary-option .ebinary-btn:first-child {
+    border-radius: 6px 0 0 6px;
+    border-right: 1px solid #e4e4e4
+}
+
+.ebinary-option .ebinary-btn:last-child {
+    border-radius: 0 6px 6px 0;
+    border-left: none
+}
+
+.tmc-medium-container+.eform-btn {
+    width: 70%;
+    margin: 0 auto
+}
+
+.bg-bonus-incentive {
+    background-image: url(/images/offerflow/bg-bonus-incentive1.png);
+    background-repeat: no-repeat;
+    background-position: 52% 170px
+}
+
+.mobile-lbtext-width {
+    margin: 0 auto;
+    width: 60%
+}
+
+@media only screen and (min-width: 1024px) {
+    .eform-bg-statement {
+        background-image:url(/images/common/eform-bg-bank-statement.png);
+        background-repeat: no-repeat;
+        background-position: 100px 60px;
+        min-height: 435px
+    }
+
+    .eform-bg-aadhaar {
+        background-image: url(/images/common/eform-bg-aadhaar.png);
+        background-repeat: no-repeat;
+        background-position: 20px 140px
+    }
+
+    .eform-bg-bank {
+        background-image: url(/images/common/eform-bg-bank-account.png);
+        background-repeat: no-repeat;
+        background-position: 20px 40px
+    }
+
+    .eform-bg-verify-otp {
+        background-image: url(/images/common/eform-bg-verify-otp.png);
+        background-repeat: no-repeat;
+        background-position: 20px 15px;
+        min-height: 540px
+    }
+
+    .eform-bg-verify-pan {
+        background-image: url(/images/common/eform-bg-verify-pan-v1.png);
+        background-repeat: no-repeat;
+        background-position: 40% 100%
+    }
+
+    .eform-bg-verify-email {
+        background-image: url(/images/common/eform-bg-verify-email.png);
+        background-repeat: no-repeat;
+        background-position: 20px 100px
+    }
+}
+
+.eform-bg-share {
+    background-image: url(/images/common/eform-bg-share-v1.png);
+    background-repeat: no-repeat;
+    background-position: 106px 100px;
+    min-height: 470px;
+    background-size: 80%
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .eform-bg-share {
+        background-size:72%;
+        background-position: 106px 90px
+    }
+
+    .bbeform-share {
+        margin-top: 230px
+    }
+}
+
+.eform-bg-verify-otp .eform-tooltip,.eform-bg-verify-email .eform-tooltip {
+    top: 0
+}
+
+.congrats-top-space {
+    margin-top: 10px
+}
+
+.eform-bg-verify-otp .eform-input-group {
+    margin: 20px auto
+}
+
+.eform-bg-verify-otp .eform-logo-experian .e-link {
+    margin: 0
+}
+
+.eform-doc-verifiy-bg {
+    background-image: url(/images/common/eform-verify-slide-bg-v3.png);
+    background-repeat: no-repeat;
+    background-position: center 110px
+}
+
+@media only screen and (max-width: 768px) {
+    .eform-doc-verifiy-bg {
+        background-size:680px;
+        background-position: center center
+    }
+}
+
+.eform-section .eform-doc-verifiy-bg .eform-slide-header {
+    width: 53%;
+    margin: 15px auto
+}
+
+.eform-section .eform-field-container .eform-slide-header {
+    font-size: 20px;
+    margin: 0
+}
+
+.eform-info-link .eform-skip,.eform-info-link .e-link {
+    display: inline-block
+}
+
+.eform-info-link .btn {
+    display: block;
+    margin: 0 auto
+}
+
+.eform-section .eform-upload-container .progress.active {
+    font-size: 18px
+}
+
+.eform-upload-slide {
+    padding-bottom: 150px
+}
+
+.no-highlight-label {
+    font-size: 20px
+}
+
+.eform-product-info {
+    font-size: 12px;
+    margin-top: 10px;
+    display: block
+}
+
+.eform-credit-score-bg .eform-product-info {
+    top: 250px;
+    position: relative;
+    font-size: 20px
+}
+
+.eform-bg-verify-aadhaar .aadhaar-goback .btn.esignHide {
+    display: block;
+    margin: 0 auto
+}
+
+.eform-bg-verify-aadhaar .aadhaar-goback .e-link {
+    display: inline-block
+}
+
+.eform-text-bold {
+    font-weight: bold
+}
+
+.eform-fontxlg {
+    font-size: 26px
+}
+
+.eform-fontlg {
+    font-size: 24px
+}
+
+.eform-fontmd {
+    font-size: 18px
+}
+
+.eform-desc-sng-bold {
+    font-size: 26px;
+    font-weight: bold
+}
+
+.eform-desc-big-size {
+    font-size: 26px
+}
+
+.eform-desc-highlight {
+    font-size: 24px;
+    color: #34495e;
+    font-weight: bold
+}
+
+.eform-help-cluetip {
+    background-image: url(/images/sprite/sprite-offers-common-desktop-V14.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+    background-position: 2px -386px
+}
+
+.eform-desc-mf {
+    font-size: 24px
+}
+
+.eform-desc-mf-payment {
+    font-size: 18px
+}
+
+.eform-mf-desc label {
+    display: block
+}
+
+.eform-img-ekyc-steps {
+    padding-bottom: 20px;
+    padding-top: 30px
+}
+
+.checking-pan-kyc-text p {
+    margin-top: 10px
+}
+
+.panda-try-again-btn {
+    margin-top: 30px;
+    background-color: #e74c3c
+}
+
+.eform-txt-header-size {
+    font-size: 26px
+}
+
+.eform-desc-highlight .tooltip.right .tooltip-arrow {
+    border-right-color: #7af8bd
+}
+
+.eform-panda-container img {
+    padding-left: 40px
+}
+
+.mf-table {
+    margin: 0 auto;
+    float: none
+}
+
+.eform-payment-table {
+    margin: 0 auto 10px;
+    float: none;
+    width: 600px
+}
+
+.eform-payment-table.sucess {
+    margin: 10px auto 10px
+}
+
+.eform-payment-table .eform-tcurve td:hover {
+    background: transparent
+}
+
+.eform-payment-table .fui-rupee:before {
+    font-size: 12px
+}
+
+.two-wheeler-insurance .eform-payment-table.sucess {
+    margin: 0 auto 10px
+}
+
+.payment-redirection img {
+    margin: 40px 0 30px
+}
+
+.payment-redirection p.eform-payment-msg {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px
+}
+
+.payment-redirection p {
+    margin: 25px 0;
+    font-size: 24px
+}
+
+.eform-payment-table .eform-tcurve td span {
+    height: inherit;
+    padding: 3px 10px;
+    min-height: 29px;
+    line-height: 22px;
+    display: inline-block;
+    font-weight: normal
+}
+
+.eform-payment-table .eform-tcurve td {
+    cursor: default
+}
+
+.screen-block-dark-grey {
+    background: #3dbfd9;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999
+}
+
+@media only screen and (min-width: 768px) and (max-width:1200px) {
+    .eform-block .challenge-qus-error .error-msg {
+        right:0
+    }
+}
+
+.eform-logo-experian {
+    background-image: url(/images/common/eform-logo-experian-v1.png);
+    background-repeat: no-repeat;
+    background-position: right 30px bottom 0;
+    min-height: 380px
+}
+
+.eform-btn-decline {
+    position: relative;
+    width: 680px;
+    margin: 0 auto
+}
+
+.eform-btn-decline .error-msg {
+    width: 250px;
+    position: absolute;
+    top: 14px;
+    right: 0
+}
+
+.eform-logo-experian .e-link {
+    display: inline-block;
+    margin: 20px 0 20px 14px;
+    cursor: pointer
+}
+
+.eform-logo-experian .contactme-slide-additional-line {
+    margin: 20px auto 0;
+    width: 480px;
+    line-height: 18px;
+    display: block
+}
+
+.eform-tnc-height {
+    min-height: 580px
+}
+
+.long-header-control .eform-slide-header {
+    width: 60%;
+    margin: 15px auto
+}
+
+.elig-contact.eform-logo-experian .errorAtContainer {
+    margin: 50px 0
+}
+
+.elig-contact.eform-logo-experian .errorAtHeader {
+    margin-top: 40px
+}
+
+.eform-logo-experian .ct-top-margin {
+    margin: 35px auto 45px
+}
+
+.one-line-tooltip .eform-tooltip {
+    top: 4px
+}
+
+.long-header-control .eform-slide-header {
+    width: 60%;
+    margin: 15px auto
+}
+
+.eform-tnc-height {
+    min-height: 580px
+}
+
+.eform-elig-onerow {
+    margin-top: 60px
+}
+
+.eform-tooltip-ctrl .eform-tooltip .eform-tooltip-inner {
+    font-size: 10px;
+    max-width: 300px
+}
+
+.eform-tooltip-ctrl .eform-tooltip .tooltip-arrow {
+    top: 17%
+}
+
+.eform-input-group .eform-input-icon+.twitter-typeahead {
+    display: table-cell!important
+}
+
+.eform-dropdown-hg-small .eform-dropdown .dropdown-menu {
+    height: 135px
+}
+
+.eform-logo-experian .eform-btn-decline.ct-top-margin {
+    margin-top: 60px
+}
+
+.eform-section .ct-sec-qus {
+    margin-top: 50px
+}
+
+.eform-elig-onerow {
+    margin-top: 60px
+}
+
+.eform-section .ct-sec-qus {
+    margin-top: 50px
+}
+
+.one-line-tooltip .eform-tooltip {
+    top: 4px
+}
+
+.eform-panda-content {
+    display: inline-block
+}
+
+.esign-panda img {
+    vertical-align: top
+}
+
+.esign-panda {
+    background: #243342;
+    height: 100%;
+    color: #fff
+}
+
+.esign-panda .tkvr-modal-dialog {
+    margin-top: 0;
+    padding-top: 10%
+}
+
+.esign-panda .success-modal-body .phone-number span {
+    padding-top: 13px;
+    margin-left: -3px
+}
+
+.esign-panda p {
+    margin: 0 0 30px 0
+}
+
+.eform-panda-content p {
+    margin: 10px 0 10px
+}
+
+.esign-panda .font-xlg {
+    font-size: 24px
+}
+
+.esign-panda .font-lg {
+    font-size: 18px
+}
+
+.esign-panda .font-md {
+    font-size: 16px
+}
+
+.esign-panda .font-sm {
+    font-size: 14px
+}
+
+.btn-success,.btn-success:hover {
+    background: #1abc9c;
+    padding: 10px 50px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold
+}
+
+.esign-panda .call-section {
+    width: 100%
+}
+
+.esign-panda .call-section-inner img {
+    float: none
+}
+
+.esign-panda .help-desk {
+    display: inline-block
+}
+
+.esign-panda .call-section {
+    padding: 5px 0 17px 0
+}
+
+.eform-elig-onerow {
+    margin-top: 60px
+}
+
+.eform-doc-advantage-bg {
+    max-width: 90%;
+    margin-top: 5%
+}
+
+.eform-green-label {
+    width: 242px;
+    height: 100px;
+    padding: 10px 20px;
+    background-color: #7af8bd;
+    color: #009e43;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 0 solid;
+    font-size: 14px;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling-y: auto;
+    -webkit-overflow-scrolling: touch;
+    line-height: normal
+}
+
+.eform-green-label::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #f5f5f5
+}
+
+.eform-green-label::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5
+}
+
+.eform-green-label::-webkit-scrollbar-thumb {
+    background-color: #999
+}
+
+.eform-input-btn-group {
+    position: relative
+}
+
+.eform-input-btn-group .eform-vertical-error {
+    float: left;
+    width: 70%
+}
+
+.eform-input-btn-group input {
+    height: 41px;
+    font-size: 14px;
+    border-radius: 5px 0 0 5px
+}
+
+.eform-upload-container .eform-tooltip,.eform-input-btn-group .eform-tooltip {
+    left: 363px;
+    top: 1px
+}
+
+.eform-input-btn-group .eform-vertical-error .error-msg {
+    top: 7px;
+    width: 315px;
+    z-index: 1
+}
+
+@media(max-width: 991px) {
+    .eform-input-btn-group .eform-tooltip {
+        position:relative;
+        top: 10px;
+        left: 0;
+        display: block;
+        width: 315px
+    }
+
+    .eform-input-btn-group .eform-tooltip .tooltip-arrow {
+        border-bottom-color: #7af8bd;
+        border-right-color: transparent;
+        border-width: 0 9px 9px 9px;
+        left: 42%;
+        top: -9px
+    }
+
+    .eform-input-btn-group .eform-tooltip .eform-tooltip-inner {
+        max-width: inherit;
+        text-align: center
+    }
+
+    .eform-input-btn-group .eform-vertical-error .input-error-cl:after {
+        left: 42%
+    }
+
+    .eform-input-btn-group .eform-vertical-error .error-msg {
+        position: absolute;
+        top: 50px
+    }
+}
+
+.eform-current-address-bg {
+    background-image: url(/images/sprite/address-slide-bg-v1.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1028px;
+    position: relative
+}
+
+.eform-personal-details-bg {
+    background-image: url(/images/sprite/personal-details-bg-v1.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin: 35px auto 0;
+    width: 544px;
+    position: relative
+}
+
+.eform-bg-verify-otp .otp-verified-txt {
+    position: absolute;
+    right: 12px;
+    top: 11px
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .eform-current-address-bg {
+        background-position:0 70px;
+        width: 768px;
+        background-size: contain
+    }
+
+    .eform-logo-experian.tnc-container .eform-tooltip .eform-tooltip-inner {
+        max-width: 170px
+    }
+}
+
+.cs-challenge-questions .eform-tooltip {
+    top: 9px;
+    left: 65%
+}
+
+.eform-block .cs-challenge-questions .error-msg {
+    z-index: 1
+}
+
+.cs-challenge-questions .eform-tooltip {
+    position: absolute;
+    margin: 0 10px 0 15px;
+    top: 9px;
+    display: inline-block;
+    left: auto;
+    right: auto
+}
+
+.cs-challenge-questions .eform-tooltip-inner {
+    display: table
+}
+
+.eform-block .slider-max-value.greater {
+    background-image: url(/images/common/rupee-icon-small-greater.png);
+    padding-left: 24px
+}
+
+.loading-bar-section {
+    width: 222px;
+    margin: 45px auto;
+    text-align: center
+}
+
+.loading-bar-section span {
+    margin: 10px auto;
+    display: block;
+    font-size: 18px
+}
+
+.loading-bar-section img {
+    border-radius: 6px
+}
+
+.emandate-msg {
+    color: #f9f17f
+}
+
+.emandate-msg-fnt {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.emandate-accept {
+    margin-bottom: 20px
+}
+
+.emandate-slide .emandate-contact,.privacy .emandate-accept {
+    margin: 10px 0
+}
+
+.emandate-content {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: normal
+}
+
+.sip-tenure .eform-slider-10 .slider .tooltip.top {
+    top: -14px!important
+}
+
+.sip-start-date .eform-dropdown .dropdown-menu {
+    height: 150px
+}
+
+.sip-start-date .eform-vertical-error .error-msg {
+    position: absolute;
+    margin: 0 10px 0 15px;
+    top: 9px;
+    display: inline-block
+}
+
+.emandate-slide {
+    min-height: 200px
+}
+
+.sip-start-date .eform-payment-table .btn .caret {
+    padding: 0;
+    top: 16px;
+    right: 12px
+}
+
+.sip-start-date .eform-payment-table .eform-input-group.eform-dropdown-group {
+    width: 124px;
+    margin: 5px auto
+}
+
+.sip-start-date .eform-payment-table .eform-dropdown .select .btn .filter-option {
+    top: 4px;
+    padding: 3px 0;
+    font-size: 14px
+}
+
+.sip-start-date .eform-payment-table .eform-tcurve .selected:hover {
+    background: #ccc
+}
+
+.sip-start-date .eform-payment-table .eform-dropdown .btn,.sip-start-date .eform-payment-table .eform-dropdown {
+    height: 34px;
+    vertical-align: middle;
+    border-radius: 6px
+}
+
+.sip-start-date .eform-payment-table .eform-dropdown .dropdown-menu li>a {
+    padding: 3px 12px
+}
+
+.sip-start-date .eform-payment-table .eform-dropdown .open>.dropdown-arrow {
+    margin-top: -11px!important;
+    padding: 0
+}
+
+.eform-payment-table .eform-tcurve {
+    border: 0 none
+}
+
+.eform-tcurve th {
+    background: #34495e;
+    border: 0 none;
+    color: #fff
+}
+
+.eform-tcurve>:first-child>:first-child>:first-child {
+    border-top-left-radius: 6px
+}
+
+.eform-tcurve>:first-child>:first-child>:last-child {
+    border-top-right-radius: 6px
+}
+
+.eform-additional-line {
+    padding: 5px 10px
+}
+
+.eform-bg-share-mobile-no {
+    background-image: url(/images/sprite/eform-bg-share-mobile-no.png);
+    background-repeat: no-repeat;
+    background-position: 20px 22px;
+    min-height: 540px
+}
+
+.eform-miss-call {
+    background-image: url(/images/sprite/eform-miss-call.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2px 5px 0 0
+}
+
+.mis-call-content {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    font-size: 18px
+}
+
+.eform-otp-msg {
+    font-size: 18px;
+    margin-bottom: 5px
+}
+
+.oops-msg-table .year-month-table {
+    background: #fff;
+    color: #555;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: left
+}
+
+.oops-msg-table .news-tagger-date-picker {
+    padding: 0
+}
+
+.oops-msg-table.eform-payment-table {
+    width: 400px
+}
+
+.eform-digilocker-img {
+    margin-top: 20px
+}
+
+.eform-skip-border {
+    border: 1px solid #fff;
+    padding: 13px 15px;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 15px;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: top;
+    cursor: pointer
+}
+
+.slider-opacity .eform-disabled-icon .eform-info,.slider-opacity .eform-disabled-icon .icons {
+    opacity: .6
+}
+
+.tooltip-overwrite .tooltip {
+    background-color: inherit;
+    border: 0 none;
+    width: initial;
+    box-shadow: inherit
+}
+
+.eform-bg-verify-aadhaar {
+    background-image: url(/images/common/eform-bg-verify-aadhaar.png);
+    background-repeat: no-repeat;
+    background-position: 0 58px;
+    min-height: 450px
+}
+
+.rate-alert-modal {
+    background: url(/images/sprite/modal-bg.png);
+    font-size: 16px
+}
+
+.bbicons-sprite-rate-modal {
+    background: url(/images/offers/bbicons-sprite-rate-modal.png)
+}
+
+.rate-alert-modal .modal-body {
+    padding: 15px 37px
+}
+
+.rate-alert-modal .modal-header {
+    padding: 10px 0 5px 0;
+    border: 0
+}
+
+.rate-alert-modal .modal-content {
+    background-color: rgba(53,79,96,.5);
+    color: #fff;
+    border: 0;
+    width: 415px;
+    box-shadow: none;
+    margin: 0 auto
+}
+
+.offers-section .bbicons-rate-alert {
+    height: 56px;
+    width: 60px;
+    background-position: -22px -81px
+}
+
+.rate-alert-modal .bbicons-taking {
+    height: 36px;
+    width: 44px;
+    background-position: -28px -2517px
+}
+
+.rate-alert-modal-header {
+    line-height: normal;
+    display: table;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    width: 324px
+}
+
+.rate-alert-modal-header a {
+    color: #fff;
+    text-decoration: underline
+}
+
+.rate-alert-modal-header span {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.rate-alert-title {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center
+}
+
+.rate-alert-detail p {
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+    padding-top: 10px
+}
+
+.rate-alert-icon {
+    padding: 0 15px 0 6px;
+    width: 22%
+}
+
+.rate-alert-icon img {
+    float: left
+}
+
+.rate-alert-detail,.rate-alert-p {
+    padding: 0 0 10px
+}
+
+.rate-alert-info {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: normal
+}
+
+.rate-alert-info p {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 12px
+}
+
+.offers-section .bbicons-error {
+    width: 38px;
+    height: 32px;
+    background-position: -32px -21px;
+    vertical-align: middle
+}
+
+.rate-alert-modal .error-msg,.modal-no-partner .error-msg {
+    background-color: #f1c40f;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 5px 5px 45px;
+    margin-top: 10px;
+    display: table;
+    line-height: normal;
+    width: 100%;
+    position: relative
+}
+
+.modal-no-partner .error-msg {
+    padding: 5px
+}
+
+.rate-alert-modal .error-msg img,.modal-no-partner .error-msg img {
+    left: 10px;
+    position: absolute;
+    top: 4px
+}
+
+.rate-alert-modal .error-msg span,.modal-no-partner .error-msg span {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.rate-alert-modal .error-msg:after,.modal-no-partner .error-msg:after {
+    bottom: 100%;
+    left: 10px;
+    border: solid transparent;
+    border-color: rgba(241,196,15,0);
+    border-bottom-color: #f1c40f;
+    border-width: 10px;
+    content: " ";
+    position: absolute;
+    height: 0;
+    pointer-events: none;
+    width: 0
+}
+
+.rate-alert-modal .modal-header .close {
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 20px;
+    opacity: 1;
+    outline: medium none;
+    padding: 8px 14px;
+    position: absolute;
+    right: 26px;
+    top: 8px;
+    color: #34495e
+}
+
+.rate-alert-modal .modal-header .close strong {
+    display: inline-block;
+    font-size: 15px;
+    padding: 2px 5px 0 0;
+    vertical-align: top
+}
+
+.input-group .btn {
+    border: 2px solid #1abc9c;
+    padding: 8px 12px
+}
+
+.input-group .form-control {
+    font-size: 13px
+}
+
+.input-group,.input-group-without-btn {
+    border-collapse: separate;
+    display: table;
+    position: relative
+}
+
+.input-group-without-btn .form-control {
+    border-radius: 0 6px 6px 0
+}
+
+.input-group .input-group-addon:first-child {
+    border-right: 0 none
+}
+
+.input-group-addon {
+    background-color: #bdc3c7;
+    border-radius: 6px;
+    color: #555;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1;
+    padding: 6px 12px;
+    text-align: center
+}
+
+.input-group-addon,.input-group-btn {
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 1%
+}
+
+.input-group-addon {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0
+}
+
+.input-group-btn .btn {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0
+}
+
+.input-group .form-control,.input-group-addon,.input-group-btn {
+    display: table-cell
+}
+
+.input-group .form-control {
+    border-radius: 0;
+    border: 0 none;
+    float: left;
+    margin-bottom: 0;
+    position: relative;
+    height: 41px;
+    width: 100%;
+    z-index: 2
+}
+
+@media only screen and (max-width: 767px) {
+    .rate-alert-modal .modal-header {
+        padding:10px 19px 5px
+    }
+
+    .rate-alert-modal .modal-content {
+        background-color: transparent
+    }
+
+    .offers-section .bbicons-rate-alert {
+        width: 60px;
+        height: 52px;
+        background-position: -10px -148px
+    }
+
+    .rate-alert-modal {
+        font-size: 12px
+    }
+
+    .rate-alert-modal .modal-body {
+        padding: 0
+    }
+
+    .rate-alert-modal .modal-content {
+        width: 282px
+    }
+
+    .rate-alert-modal-header {
+        width: 272px;
+        margin-left: 5px
+    }
+
+    .input-group .form-control {
+        font-size: 12px
+    }
+
+    .rate-alert-modal .modal-header .close strong {
+        display: none
+    }
+
+    .rate-alert-modal .modal-header .close {
+        padding: 0 4px
+    }
+
+    .rate-alert-detail img {
+        width: 37px;
+        padding-top: 10px
+    }
+
+    .rate-alert-input {
+        padding-top: 10px
+    }
+
+    .rate-alert-info {
+        display: none
+    }
+}
+
+.tkvr-modal-dialog {
+    margin: 0 auto;
+    padding-top: 5px
+}
+
+#ouibounce-modal {
+    background: url(/images/offerflow/bg-img.png);
+    overflow: hidden;
+    Z-index: 10003
+}
+
+.tkvr-modal-dialog .modal-content {
+    background: 0;
+    border: 0;
+    margin: 0 auto;
+    clear: both
+}
+
+.insurance-content .tkvr-modal-dialog .container {
+    background: transparent
+}
+
+.tkvr-wrapper .tkvr-desp,.tkvr-ctry-title,.tkvr-ctry-detail .call-us {
+    font-size: 16px;
+    text-align: center;
+    color: #fff
+}
+
+.tkvr-wrapper .tkvr-desp {
+    font-weight: lighter;
+    line-height: 20px;
+    padding: 0 11px;
+    width: 283px;
+    float: left
+}
+
+.tkvr-wrapper .tkvr-ctry-title {
+    font-weight: bold;
+    padding: 10px 0
+}
+
+.tkvr-cat-list {
+    width: 380px;
+    float: left;
+    position: relative
+}
+
+.bdr-right {
+    border-right: 1px solid #68747e
+}
+
+.tkvr-cat-list .before-success {
+    padding: 0 15px 15px
+}
+
+.tkvr-cat-list .tkvr-success {
+    padding: 0 15px 0
+}
+
+.tkvr-ctry-detail {
+    min-height: 100px
+}
+
+.tkvr-ctry-img {
+    float: left;
+    width: 55px;
+    margin: 0 5px
+}
+
+.tkvr-success .tkvr-ctry-img {
+    width: 30%;
+    padding: 0;
+    margin: 0
+}
+
+.tkvr-wrapper .tkvr-success .tkvr-desp {
+    width: 69%;
+    float: right
+}
+
+.tkvr-action {
+    text-align: center;
+    bottom: 2px;
+    padding: 0 5px
+}
+
+.tkvr-action .input-group .form-control {
+    border: 0;
+    height: 44px;
+    font-size: 15px;
+    position: static
+}
+
+.tkvr-action form {
+    margin: 0
+}
+
+.tkvr-action .input-group {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0 auto
+}
+
+.input-group-addon.btn-primary {
+    background: #1abc9c;
+    border: 0;
+    padding: 5px 20px;
+    color: #fff!important;
+    font-size: 20px;
+    font-weight: bold!important
+}
+
+.tkvr-action .input-group-addon {
+    font-weight: lighter;
+    color: #000;
+    font-size: 20px;
+    width: 50px;
+    background-color: #bdc3c7
+}
+
+.input-group-addon.width_fixed {
+    padding: 0
+}
+
+.tkvr-action .btn-primary {
+    font-size: 18px;
+    box-shadow: none;
+    line-height: 24px;
+    font-weight: bold;
+    outline: 0
+}
+
+.tkvr-modal-dialog .tkvr-action .btn-primary {
+    background-color: #1abc9c
+}
+
+.tkvr-modal-dialog .close {
+    text-align: right;
+    opacity: 1;
+    margin: 15px
+}
+
+.margleft {
+    margin-left: 20px
+}
+
+.tkvr-modal-dialog .close .btn {
+    padding: 6px 11px;
+    background: none repeat scroll 0 0 #fff;
+    color: #000;
+    font-weight: normal
+}
+
+.tkvr-baner-text {
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 15px 0 5px;
+    text-align: center;
+    width: 800px;
+    font-weight: bold
+}
+
+.tkvr-baner-text p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0
+}
+
+.tkvr-modal-dialog .close .btn:hover,.close-mobile .btn:hover {
+    color: #000
+}
+
+.tkvr-ctry-detail .call-us {
+    margin-left: 65px;
+    font-weight: lighter
+}
+
+.tkvr-success-tick {
+    position: absolute;
+    left: -10px;
+    top: 27px;
+    background: url(/images/offerflow/tick-icon.png) no-repeat transparent;
+    width: 55px;
+    height: 41px
+}
+
+.tkvr-wrapper {
+    background-color: rgba(53,79,96,.5);
+    border-radius: 6px
+}
+
+.close.mobile {
+    display: none
+}
+
+.tkvr-ccamin-img {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.btn.btn-embossed.btn-primary {
+    padding: 7px 10px
+}
+
+.tkvr-wrapper .err-msg {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    margin: 0 7%;
+    display: none
+}
+
+.insur-apppage .tkvr-wrapper .err-msg {
+    top: 190px
+}
+
+.dontshow {
+    display: none
+}
+
+.tkvr-modal-dialog .modal-content {
+    background: none repeat scroll 0 0 rgba(0,0,0,0);
+    border: 0 none;
+    margin: 0 auto;
+    width: 380px
+}
+
+.tkvr-modal-dialog .modal-content.two-col-sect {
+    width: 760px
+}
+
+.tkvr-modal-dialog .modal-content.three-col-sect {
+    width: 100%;
+    max-width: 1141px
+}
+
+.tkvr-action form .btn {
+    background: #1abc9c;
+    color: #fff;
+    border-radius: 0 6px 6px 0;
+    border: 2px solid #1abc9c
+}
+
+.tkvr-ccamin-img img {
+    width: 140px
+}
+
+.firebugLayoutBox {
+    width: auto!important;
+    position: static!important
+}
+
+.firebugLayoutBoxOffset {
+    opacity: .8!important;
+    position: fixed!important
+}
+
+.firebugLayoutBoxParent {
+    border-top: 0 none!important;
+    border-right: 1px dashed #E00!important;
+    border-bottom: 1px dashed #E00!important;
+    border-left: 0 none!important;
+    position: fixed!important;
+    width: auto!important
+}
+
+.overflowRulerX>.firebugRulerV {
+    left: 0!important
+}
+
+.overflowRulerY>.firebugRulerH {
+    top: 0!important
+}
+
+.flipping {
+    position: absolute;
+    bottom: 0
+}
+
+.panel-anim {
+    height: 280px;
+    width: 120px;
+    bottom: 0;
+    position: absolute;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg)
+}
+
+.panel-anim.flip .front {
+    z-index: 900;
+    border: 0;
+    box-shadow: 0;
+    -webkit-transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    transform: rotateY(90deg)
+}
+
+.diagonal .front {
+    -webkit-transform: rotate3d(45,45,0,0deg);
+    -moz-transform: rotate3d(45,45,0,0deg);
+    transform: rotate3d(45,45,0,0deg)
+}
+
+.swing .front {
+    backface-visibility: visible;
+    position: relative;
+    top: 78px;
+    transform-origin: 170px 0 0;
+    transition-duration: .5s;
+    width: 300px
+}
+
+.block.panel-anim {
+    left: 46%
+}
+
+.saveThisSearch {
+    height: 42px;
+    width: 100%
+}
+
+.tkvr-wrapper .error-msg {
+    background-color: #f1c40f;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 5px 5px 45px;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    -moz-animation: bounce 1s 1 alternate;
+    -ms-animation: bounce 1s 1 alternate;
+    -o-animation: bounce 1s 1 alternate;
+    -webkit-animation: bounce 1s 1 alternate;
+    animation: bounce 1s 1 alternate;
+    line-height: normal;
+    min-height: 36px;
+    display: block
+}
+
+.tkvr-wrapper .error-msg:after {
+    bottom: 100%;
+    left: 40px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(241,196,15,0);
+    border-bottom-color: #f1c40f;
+    border-width: 10px;
+    margin-left: -30px
+}
+
+.tkvr-wrapper .error-msg img {
+    left: 10px;
+    position: absolute;
+    top: 4px
+}
+
+.control-label.error-msg.error-msg-abs {
+    position: absolute;
+    top: 100px;
+    width: 300px
+}
+
+.control-label.error-msg.error-msg-abs:after {
+    left: 36px
+}
+
+.tkvr-action .input-group .form-control:not(:first-child):not(:last-child) {
+    border-radius: 0
+}
+
+.tkvr-modal-dialog .modal-content,.offer-loadings .modal-content {
+    box-shadow: none
+}
+
+.tkvr-action .input-group-addon:last-child {
+    border-radius: 0 6px 6px 0
+}
+
+@media only screen and (max-width : 1400px) {
+    .tkvr-ccamin-img img {
+        width:140px
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .tkvr-modal-dialog .container {
+        width:98%
+    }
+}
+
+@media only screen and (min-width : 1130px) and (max-width :1170px) {
+    .tkvr-cat-list {
+        float:left;
+        width: 367px
+    }
+
+    .tkvr-wrapper .tkvr-desp {
+        width: 270px
+    }
+}
+
+@media only screen and (min-width : 1024px) and (max-width :1130px) {
+    .tkvr-modal-dialog {
+        width:1000px;
+        margin: 20px auto
+    }
+
+    .tkvr-wrapper .tkvr-desp {
+        width: 225px
+    }
+
+    .tkvr-baner-text span {
+        font-size: 24px
+    }
+
+    .tkvr-baner-text {
+        padding: 60px 0 20px;
+        font-size: 21px
+    }
+
+    .err-msg {
+        top: 220px
+    }
+
+    .tkvr-ctry-detail {
+        min-height: 120px
+    }
+
+    .tkvr-cat-list {
+        float: left;
+        width: 323px
+    }
+
+    .tkvr-modal-dialog .modal-content.two-col-sect {
+        width: 760px
+    }
+
+    .modal-content.two-col-sect .tkvr-cat-list {
+        float: left;
+        width: 380px
+    }
+
+    .modal-content.two-col-sect .tkvr-wrapper .tkvr-desp {
+        width: 270px
+    }
+}
+
+@media only screen and (max-width : 1023px) {
+    .tkvr-modal-dialog {
+        margin:20px auto
+    }
+
+    .tkvr-wrapper .tkvr-desp {
+        width: 168px;
+        padding: 0;
+        font-size: 16px
+    }
+
+    .input-group-addon.btn-primary {
+        padding: 5px 10px;
+        font-size: 14px
+    }
+
+    .tkvr-action .btn-primary,.tkvr-action .input-group-addon {
+        font-size: 14px
+    }
+
+    .tkvr-ctry-img {
+        width: 35px
+    }
+
+    .tkvr-ctry-img img {
+        max-width: 100%
+    }
+
+    .tkvr-cat-list {
+        min-height: 190px;
+        position: relative;
+        width: 246px
+    }
+
+    .tkvr-modal-dialog .modal-content.two-col-sect .tkvr-cat-list {
+        width: 380px
+    }
+
+    .modal-content.two-col-sect .tkvr-ctry-img {
+        float: left;
+        margin: 0 5px;
+        width: 55px
+    }
+
+    .modal-content.two-col-sect .tkvr-wrapper .tkvr-desp {
+        float: left;
+        font-weight: lighter;
+        line-height: 20px;
+        padding: 0 7px;
+        width: 283px
+    }
+
+    .tkvr-action {
+        padding: 0 5px;
+        text-align: center;
+        position: absolute;
+        bottom: 13px
+    }
+
+    .tkvr-action .input-group-addon {
+        padding: 0;
+        width: 35px
+    }
+
+    .tkvr-action .input-group-addon.btn-primary {
+        padding: 0 8px
+    }
+
+    .tkvr-baner-text {
+        font-size: 22px;
+        padding: 70px 0 40px;
+        line-height: 30px
+    }
+
+    .tkvr-baner-text span {
+        font-size: 20px
+    }
+
+    .tkvr-ctry-detail .call-us {
+        margin-left: 0;
+        font-weight: lighter
+    }
+
+    .tkvr-success .tkvr-ctry-img {
+        position: absolute;
+        bottom: 0
+    }
+
+    .btn.btn-embossed.btn-primary {
+        padding: 11px 20px
+    }
+
+    .err-msg {
+        top: 213px
+    }
+
+    .tkvr-modal-dialog .modal-content.three-col-sect {
+        width: 740px;
+        max-width: 100%
+    }
+
+    .block.panel-anim {
+        left: 42%
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .margleft {
+        margin-left:0
+    }
+}
+
+@media only screen and (min-width : 1131px) and (max-width :1170px) {
+    .tkvr-modal-dialog .modal-content.three-col-sect {
+        max-width:1102px;
+        width: 100%
+    }
+}
+
+@media only screen and (min-width : 1024px) and (max-width :1130px) {
+    .tkvr-modal-dialog .modal-content.three-col-sect {
+        max-width:970px;
+        width: 100%
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width :1024px) {
+    .tkvr-cat-list {
+        min-height:220px
+    }
+
+    .tkvr-action {
+        left: 0;
+        width: 100%
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .tkvr-modal-dialog .modal-content {
+        width:305px
+    }
+
+    .tkvr-modal-dialog {
+        width: 310px;
+        padding-top: 0
+    }
+
+    .tkvr-cat-list {
+        padding: 0 5px;
+        border: 0;
+        width: 305px
+    }
+
+    .bdr-right {
+        border-bottom: 1px solid #68747e
+    }
+
+    .tkvr-cat-list,.tkvr-ctry-detail {
+        min-height: inherit
+    }
+
+    .tkvr-cat-list .tkvr-success {
+        padding: 10px 15px
+    }
+
+    .tkvr-cat-list .before-success {
+        padding: 0
+    }
+
+    .tkvr-action {
+        position: static;
+        margin: 10px 0;
+        padding-right: 11px
+    }
+
+    .tkvr-ctry-img {
+        width: 35px
+    }
+
+    .tkvr-wrapper .tkvr-ctry-title {
+        padding: 5px 0 5px
+    }
+
+    .tkvr-wrapper .tkvr-desp {
+        width: 250px
+    }
+
+    .tkvr-modal-dialog .container {
+        padding: 0
+    }
+
+    .tkvr-modal-dialog .close {
+        display: none
+    }
+
+    .close.mobile {
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 40px;
+        z-index: 2
+    }
+
+    .close.mobile .btn {
+        font-size: 16px;
+        font-weight: bolder;
+        padding: 4px 13px;
+        line-height: 22px
+    }
+
+    .tkvr-wrapper .error-msg {
+        font-size: 12px
+    }
+
+    .tkvr-modal-dialog .modal-content {
+        z-index: 2;
+        opacity: .9
+    }
+
+    .tkvr-ccamin-img {
+        top: 45px;
+        position: absolute;
+        z-index: 1
+    }
+
+    .tkvr-ccamin-img img {
+        opacity: .3;
+        width: auto
+    }
+
+    .err-msg {
+        position: static
+    }
+
+    .block.panel-anim {
+        left: 42%;
+        opacity: .2;
+        top: 0
+    }
+
+    .tkvr-success .tkvr-ctry-img {
+        position: inherit
+    }
+}
+
+@media only screen and (max-width : 420px) {
+    .block.panel-anim {
+        left:33%;
+        opacity: .2;
+        top: 0
+    }
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/styles/fonts/lato/lato-light.eot');
+    src: url('/styles/fonts/lato/lato-light.eot?#iefix') format('embedded-opentype'),url('/styles/fonts/lato/lato-light.woff') format('woff'),url('/styles/fonts/lato/lato-light.ttf') format('truetype'),url('/styles/fonts/lato/lato-light.svg#latolight') format('svg');
+    font-weight: 300;
+    font-style: normal
+}
+
+.footer-sprite {
+    background-image: url(/images/common/footer-sprite.png)
+}
+
+.mobile-app-download .bbicons-android {
+    background-position: 0 0
+}
+
+.mobile-app-download .bbicons-ios {
+    background-position: -109px 0;
+    margin-left: 6px
+}
+
+.mobile-app-download .bbicons-android,.mobile-app-download .bbicons-ios {
+    min-height: 33px;
+    margin: 0 auto;
+    width: 102px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.mobile-app-download {
+    background-color: #1b9eca;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff
+}
+
+.mobile-app-download .get-your-app,.mobile-app-download .app-rating {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: left;
+    margin-right: 20px
+}
+
+.mobile-app-download .app-rating span {
+    display: block;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.mobile-app-download .app-rating .rating-num {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.mobile-app-download .qr-code {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: left;
+    font-size: 18px;
+    width: 20%
+}
+
+@media(max-width: 1023px) {
+    .mobile-app-download .qr-code {
+        width:28%
+    }
+}
+
+.icon-gender-male {
+    background-position: -86px -5px
+}
+
+.icon-gender-female {
+    background-position: -5px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-gender-male {
+        background-position:-49px -5px
+    }
+
+    .icon-gender-female {
+        background-position: -5px -5px
+    }
+}
+
+.icon-city-mumbai {
+    background-position: -2px -138px
+}
+
+.icon-city-chennai {
+    background-position: -138px -2px
+}
+
+.icon-city-new-delhi {
+    background-position: -138px -138px
+}
+
+.icon-city-bangalore {
+    background-position: -2px -2px
+}
+
+.icon-city-other {
+    background-position: -274px -2px
+}
+
+.ic-ahmedabad {
+    background-position: -5px -5px
+}
+
+.ic-bangalore {
+    background-position: -115px -5px
+}
+
+.ic-chennai {
+    background-position: -225px -5px
+}
+
+.ic-new-delhi {
+    background-position: -5px -115px
+}
+
+.ic-gurgaon {
+    background-position: -115px -115px
+}
+
+.ic-hyderabad {
+    background-position: -225px -115px
+}
+
+.ic-kolkata {
+    background-position: -5px -225px
+}
+
+.ic-mumbai {
+    background-position: -115px -225px
+}
+
+.ic-pune {
+    background-position: -335px -5px
+}
+
+.ic-default {
+    background-position: -335px -115px
+}
+
+.ic-other {
+    background-position: -335px -225px
+}
+
+@media only screen and (max-width: 1023px) and (min-width:768px) {
+    .icon-city-mumbai {
+        background-position:-99px -106px
+    }
+
+    .icon-city-chennai {
+        background-position: -99px -8px
+    }
+
+    .icon-city-new-delhi {
+        background-position: -8px -106px
+    }
+
+    .icon-city-bangalore {
+        background-position: -8px -8px
+    }
+
+    .icon-city-other,.icon-city-default {
+        background-position: -190px -3px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-city-mumbai {
+        background-position:-215px 0
+    }
+
+    .icon-city-chennai {
+        background-position: -75px -5px
+    }
+
+    .icon-city-new-delhi {
+        background-position: -145px 0
+    }
+
+    .icon-city-bangalore {
+        background-position: -5px -5px
+    }
+
+    .icon-city-other,.icon-city-default {
+        background-position: -285px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ic-bangalore {
+        background-position:-75px -5px
+    }
+
+    .ic-chennai {
+        background-position: -145px -5px
+    }
+
+    .ic-new-delhi {
+        background-position: -5px -85px
+    }
+
+    .ic-hyderabad {
+        background-position: -145px -85px
+    }
+
+    .ic-kolkata {
+        background-position: -5px -165px
+    }
+
+    .ic-mumbai {
+        background-position: -75px -165px
+    }
+
+    .ic-pune {
+        background-position: -215px -5px
+    }
+
+    .ic-default {
+        background-position: -215px -85px
+    }
+
+    .ic-other {
+        background-position: -215px -165px
+    }
+}
+
+.icon-loan-topup {
+    background-position: -826px 0
+}
+
+.icon-loan-transfer {
+    background-position: -945px 0
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-loan-business {
+        background-position:-5px -5px
+    }
+
+    .icon-loan-buying-car-bike {
+        background-position: -73px -5px
+    }
+
+    .icon-loan-higher-education {
+        background-position: -141px -5px
+    }
+
+    .icon-loan-home-renovation {
+        background-position: -5px -73px
+    }
+
+    .icon-loan-marriage {
+        background-position: -73px -73px
+    }
+
+    .icon-loan-medical-emergency {
+        background-position: -141px -73px
+    }
+
+    .icon-loan-other {
+        background-position: -5px -141px
+    }
+
+    .icon-loan-topup {
+        background-position: -73px -141px
+    }
+
+    .icon-loan-transfer {
+        background-position: -141px -141px
+    }
+}
+
+.icon-employment1 {
+    background-position: 0 0
+}
+
+.icon-employment2 {
+    background-position: -108px 0
+}
+
+.icon-employment3 {
+    background-position: -216px 0
+}
+
+.icon-employment4 {
+    background-position: -324px 0
+}
+
+.icon-employment5 {
+    background-position: -432px 0
+}
+
+.icon-employment6 {
+    background-position: -540px 0
+}
+
+.icon-employment7 {
+    background-position: -648px 0
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-employment1 {
+        background-position:0 0
+    }
+
+    .icon-employment2 {
+        background-position: -60px 0
+    }
+
+    .icon-employment3 {
+        background-position: -120px 0
+    }
+
+    .icon-employment4 {
+        background-position: -180px 0
+    }
+
+    .icon-employment5 {
+        background-position: -240px 0
+    }
+
+    .icon-employment6 {
+        background-position: -300px 0
+    }
+
+    .icon-employment7 {
+        background-position: -360px 0
+    }
+}
+
+.icon-el-new-car {
+    background-position: -147px -5px
+}
+
+.icon-el-used-car {
+    background-position: -5px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-el-new-car {
+        background-position:-75px -5px
+    }
+
+    .icon-el-used-car {
+        background-position: -5px -5px
+    }
+}
+
+.male-young-ind {
+    background-position: -5px 0
+}
+
+.male-old-ind {
+    background-position: -327px 0;
+    width: 180px
+}
+
+.male-young-nri {
+    background-position: -165px 0
+}
+
+.male-old-nri {
+    background-position: -510px 0;
+    width: 180px
+}
+
+@media only screen and (max-width: 767px) {
+    .male-young-ind {
+        background-position:0 0
+    }
+
+    .male-old-ind {
+        background-position: -162px 0;
+        width: 90px
+    }
+
+    .male-young-nri {
+        background-position: -80px 0
+    }
+
+    .male-old-nri {
+        background-position: -256px 0;
+        width: 90px
+    }
+}
+
+.female-young-ind {
+    background-position: 14px 0
+}
+
+.female-old-ind {
+    background-position: -316px 0;
+    width: 180px
+}
+
+.female-young-nri {
+    background-position: -147px 0
+}
+
+.female-old-nri {
+    background-position: -504px 0;
+    width: 180px
+}
+
+@media only screen and (max-width: 767px) {
+    .female-young-ind {
+        background-position:0 0
+    }
+
+    .female-old-ind {
+        background-position: -159px 0;
+        width: 90px
+    }
+
+    .female-young-nri {
+        background-position: -75px 0
+    }
+
+    .female-old-nri {
+        background-position: -256px 0;
+        width: 90px
+    }
+}
+
+.icon-applied-sbi {
+    background-position: -5px -5px
+}
+
+.icon-existing-sbi {
+    background-position: -115px -5px
+}
+
+.icon-applied-kotak {
+    background-position: -5px -5px
+}
+
+.icon-existing-kotak {
+    background-position: -115px -5px
+}
+
+.icon-applied-hsbc {
+    background-position: -5px -5px
+}
+
+.icon-existing-hsbc {
+    background-position: -115px -5px
+}
+
+.icon-applied-axis {
+    background-position: -5px -5px
+}
+
+.icon-existing-axis {
+    background-position: -115px -5px
+}
+
+.icon-applied-american {
+    background-position: -5px -5px
+}
+
+.icon-existing-american {
+    background-position: -115px -5px
+}
+
+.icon-applied-hdfc {
+    background-position: -5px -5px
+}
+
+.icon-existing-hdfc {
+    background-position: -115px -5px
+}
+
+.icon-applied-indusind {
+    background-position: -5px -5px
+}
+
+.icon-existing-indusind {
+    background-position: -115px -5px
+}
+
+.icon-applied-citi {
+    background-position: -5px -5px
+}
+
+.icon-existing-citi {
+    background-position: -115px -5px
+}
+
+.icon-pf-deduction-yes {
+    background-position: -10px -5px
+}
+
+.icon-pf-deduction-no {
+    background-position: -205px -5px
+}
+
+.icon-bonus-incentive-yes {
+    background-position: -6px -5px
+}
+
+.icon-bonus-incentive-no {
+    background-position: -226px -5px
+}
+
+.icon-latest-statement-yes {
+    background-position: -6px -5px
+}
+
+.icon-latest-statement-no {
+    background-position: -189px -5px
+}
+
+.icon-emp-bcard-yes {
+    background-position: 5px 0
+}
+
+.icon-emp-bcard-no {
+    background-position: -174px -2px
+}
+
+.icon-loan-cc-taken-yes {
+    background-position: -5px 0
+}
+
+.icon-loan-cc-taken-no {
+    background-position: -200px -2px
+}
+
+.icon-form-sixteen-yes {
+    background-position: -5px 0
+}
+
+.icon-form-sixteen-no {
+    background-position: -200px -2px
+}
+
+.icon-applied-scb {
+    background-position: -5px -5px
+}
+
+.icon-existing-scb {
+    background-position: -115px -5px
+}
+
+.icon-ecs-chq-bounce-yes {
+    background-position: -5px 0
+}
+
+.icon-ecs-chq-bounce-no {
+    background-position: -200px -2px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-applied-sbi {
+        background-position:-5px -5px
+    }
+
+    .icon-existing-sbi {
+        background-position: -73px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-applied-kotak {
+        background-position:-5px -5px
+    }
+
+    .icon-existing-kotak {
+        background-position: -73px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-applied-hsbc {
+        background-position:-5px -5px
+    }
+
+    .icon-existing-hsbc {
+        background-position: -73px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-applied-axis {
+        background-position:-5px -5px
+    }
+
+    .icon-existing-axis {
+        background-position: -73px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-applied-american {
+        background-position:-5px -5px
+    }
+
+    .icon-existing-american {
+        background-position: -73px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-applied-hdfc {
+        background-position:-5px -5px
+    }
+
+    .icon-existing-hdfc {
+        background-position: -73px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-applied-indusind {
+        background-position:-5px -5px
+    }
+
+    .icon-existing-indusind {
+        background-position: -73px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-applied-citi {
+        background-position:-5px -5px
+    }
+
+    .icon-existing-citi {
+        background-position: -73px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-pf-deduction-yes {
+        background-position:-5px -5px
+    }
+
+    .icon-pf-deduction-no {
+        background-position: -116px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-bonus-incentive-yes {
+        background-position:-3px -5px
+    }
+
+    .icon-bonus-incentive-no {
+        background-position: -118px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-latest-statement-yes {
+        background-position:-3px -5px
+    }
+
+    .icon-latest-statement-no {
+        background-position: -98px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-emp-bcard-yes {
+        background-position:0 0
+    }
+
+    .icon-emp-bcard-no {
+        background-position: -82px -2px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-loan-cc-taken-yes {
+        background-position:-3px 0
+    }
+
+    .icon-loan-cc-taken-no {
+        background-position: -92px -2px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-form-sixteen-yes {
+        background-position:-3px 0
+    }
+
+    .icon-form-sixteen-no {
+        background-position: -92px -2px
+    }
+}
+
+.icon-applied-scb {
+    background-position: -5px -5px
+}
+
+.icon-existing-scb {
+    background-position: -73px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-ecs-chq-bounce-yes {
+        background-position:-2px 0
+    }
+
+    .icon-ecs-chq-bounce-no {
+        background-position: -100px -2px
+    }
+}
+
+.icon-address {
+    background-position: -3px -5px
+}
+
+.icon-bank {
+    background-position: -3px -56px
+}
+
+.icon-location {
+    background-position: -3px -106px
+}
+
+.icon-pwd {
+    background-position: -3px -156px
+}
+
+.icon-pan {
+    background-position: -3px -206px
+}
+
+.icon-username {
+    background-position: -5px -252px
+}
+
+.icon-creditcard {
+    background-position: -5px -300px
+}
+
+.icon-proof {
+    background-position: -5px -352px
+}
+
+.icon-dateofbirth {
+    background-position: -5px -404px
+}
+
+.icon-education {
+    background-position: -5px -454px
+}
+
+.icon-builder {
+    background-position: -3px -502px
+}
+
+.icon-chatinfo {
+    background-position: -4px -560px
+}
+
+.icon-miss-call {
+    background-position: -7px -611px
+}
+
+.icon-dp-aditya-birla {
+    background-position: -5px -5px
+}
+
+.icon-dp-capital-first {
+    background-position: -115px -5px
+}
+
+.icon-dp-citi {
+    background-position: -225px -5px
+}
+
+.icon-dp-indusind {
+    background-position: -335px -5px
+}
+
+.icon-dp-tata {
+    background-position: -445px -5px
+}
+
+.icon-dp-fullerton {
+    background-position: -5px -110px
+}
+
+.icon-dp-hdb {
+    background-position: -115px -110px
+}
+
+.icon-dp-hdfc {
+    background-position: -225px -110px
+}
+
+.icon-dp-icici {
+    background-position: -335px -110px
+}
+
+.icon-dp-kotak {
+    background-position: -445px -110px
+}
+
+.icon-dp-scb {
+    background-position: -5px -216px
+}
+
+.icon-dp-yes {
+    background-position: -115px -216px
+}
+
+.icon-dp-iifl {
+    background-position: -225px -216px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-dp-aditya-birla {
+        background-position:-5px -5px
+    }
+
+    .icon-dp-capital-first {
+        background-position: -73px -5px
+    }
+
+    .icon-dp-citi {
+        background-position: -141px -5px
+    }
+
+    .icon-dp-indusind {
+        background-position: -209px -5px
+    }
+
+    .icon-dp-tata {
+        background-position: -277px -5px
+    }
+
+    .icon-dp-fullerton {
+        background-position: -5px -69px
+    }
+
+    .icon-dp-hdb {
+        background-position: -73px -69px
+    }
+
+    .icon-dp-hdfc {
+        background-position: -141px -69px
+    }
+
+    .icon-dp-icici {
+        background-position: -209px -69px
+    }
+
+    .icon-dp-kotak {
+        background-position: -277px -69px
+    }
+
+    .icon-dp-scb {
+        background-position: -5px -133px
+    }
+
+    .icon-dp-yes {
+        background-position: -73px -133px
+    }
+
+    .icon-dp-iifl {
+        background-position: -141px -133px
+    }
+}
+
+.icon-dp-aspire {
+    background-position: -5px -5px
+}
+
+.icon-dp-au-finance {
+    background-position: -115px -5px
+}
+
+.icon-dp-axis {
+    background-position: -225px -5px
+}
+
+.icon-dp-dbs {
+    background-position: -5px -115px
+}
+
+.icon-dp-dena {
+    background-position: -115px -115px
+}
+
+.icon-dp-federal {
+    background-position: -225px -115px
+}
+
+.icon-dp-gurh-finance {
+    background-position: -5px -225px
+}
+
+.icon-dp-indiabulls {
+    background-position: -115px -225px
+}
+
+.icon-dp-isfc {
+    background-position: -225px -225px
+}
+
+.icon-dp-pnb-hfl {
+    background-position: -335px -5px
+}
+
+.icon-dp-reliance-hl {
+    background-position: -335px -115px
+}
+
+.icon-dp-sbbj {
+    background-position: -335px -225px
+}
+
+.icon-dp-sbi {
+    background-position: -5px -335px
+}
+
+.icon-dp-sundaram-bnp {
+    background-position: -115px -335px
+}
+
+.icon-grampanchayat {
+    background-position: -5px -5px
+}
+
+.icon-landora {
+    background-position: -115px -5px
+}
+
+.icon-gunthewari {
+    background-position: -225px -5px
+}
+
+.icon-bkhata {
+    background-position: -335px -5px
+}
+
+.icon-time-three {
+    background-position: -5px -5px
+}
+
+.icon-time-three-to-six {
+    background-position: -115px -5px
+}
+
+.icon-time-six {
+    background-position: -225px -5px
+}
+
+.icon-time-less-forty-five {
+    background-position: -335px -5px
+}
+
+.icon-time-great-forty-five {
+    background-position: -445px -5px
+}
+
+.icon-time-within-three-six {
+    background-position: -5px -122px
+}
+
+.icon-time-before-three-six {
+    background-position: -114px -122px
+}
+
+.icon-time-take-loan-cc {
+    background-position: -224px -122px
+}
+
+.icon-time-great-thirty {
+    background-position: -445px -121px
+}
+
+.icon-time-less-thirty {
+    background-position: -335px -121px
+}
+
+.icon-direct-mode {
+    background-position: -5px -5px
+}
+
+.icon-cash-mode {
+    background-position: -115px -5px
+}
+
+.icon-cheque-mode {
+    background-position: -225px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-dp-aspire {
+        background-position:-5px -5px
+    }
+
+    .icon-dp-au-finance {
+        background-position: -73px -5px
+    }
+
+    .icon-dp-axis {
+        background-position: -141px -5px
+    }
+
+    .icon-dp-dbs {
+        background-position: -5px -73px
+    }
+
+    .icon-dp-dena {
+        background-position: -73px -73px
+    }
+
+    .icon-dp-federal {
+        background-position: -141px -73px
+    }
+
+    .icon-dp-gurh-finance {
+        background-position: -5px -141px
+    }
+
+    .icon-dp-indiabulls {
+        background-position: -73px -141px
+    }
+
+    .icon-dp-isfc {
+        background-position: -141px -141px
+    }
+
+    .icon-dp-pnb-hfl {
+        background-position: -209px -5px
+    }
+
+    .icon-dp-reliance-hl {
+        background-position: -209px -73px
+    }
+
+    .icon-dp-sbbj {
+        background-position: -209px -141px
+    }
+
+    .icon-dp-sbi {
+        background-position: -5px -209px
+    }
+
+    .icon-dp-sundaram-bnp {
+        background-position: -73px -209px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-grampanchayat {
+        background-position:-5px -5px
+    }
+
+    .icon-landora {
+        background-position: -73px -5px
+    }
+
+    .icon-gunthewari {
+        background-position: -141px -5px
+    }
+
+    .icon-bkhata {
+        background-position: -209px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-time-three {
+        background-position:-5px -5px
+    }
+
+    .icon-time-three-to-six {
+        background-position: -65px -5px
+    }
+
+    .icon-time-six {
+        background-position: -125px -5px
+    }
+
+    .icon-time-less-forty-five {
+        background-position: -185px -5px
+    }
+
+    .icon-time-great-forty-five {
+        background-position: -245px -5px
+    }
+
+    .icon-time-within-three-six {
+        background-position: -5px -65px
+    }
+
+    .icon-time-before-three-six {
+        background-position: -65px -65px
+    }
+
+    .icon-time-take-loan-cc {
+        background-position: -125px -65px
+    }
+
+    .icon-time-great-thirty {
+        background-position: -245px -65px
+    }
+
+    .icon-time-less-thirty {
+        background-position: -185px -65px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-direct-mode {
+        background-position:-5px -5px
+    }
+
+    .icon-cheque-mode {
+        background-position: -73px -5px
+    }
+
+    .icon-cash-mode {
+        background-position: -141px -5px
+    }
+}
+
+.icon-doc-pan {
+    background-position: -5px -5px
+}
+
+.icon-doc-esign {
+    background-position: -123px -123px
+}
+
+.icon-doc-attested {
+    background-position: -241px -123px
+}
+
+.icon-doc-address {
+    background-position: -5px -241px
+}
+
+.icon-doc-passport {
+    background-position: -123px -241px
+}
+
+.icon-doc-aadhaar {
+    background-position: -241px -241px
+}
+
+.icon-doc-licence {
+    background-position: -359px -5px
+}
+
+.icon-doc-voterid {
+    background-position: -359px -123px
+}
+
+.icon-doc-photoid {
+    background-position: -359px -241px
+}
+
+.icon-doc-others {
+    background-position: -123px -5px
+}
+
+.icon-doc-online {
+    background-position: -241px -5px
+}
+
+.icon-doc-manual {
+    background-position: -5px -123px
+}
+
+.icon-doc-hmagreement {
+    background-position: -5px -359px
+}
+
+.icon-doc-appfom {
+    background-position: -241px -360px
+}
+
+.icon-doc-elcitybill {
+    background-position: -123px -359px
+}
+
+.icon-doc-downall {
+    background-position: -359px -359px
+}
+
+.icon-doc-savingsacc {
+    background-position: -5px -477px
+}
+
+.icon-doc-aadhaar-best {
+    background-position: -123px -478px
+}
+
+.icon-doc-upload-id {
+    background-position: -241px -478px
+}
+
+.icon-doc-upload-esign {
+    background-position: -360px -478px
+}
+
+.icon-not-listed {
+    background-position: -241px -599px
+}
+
+.icon-digilocker {
+    background-position: -6px -598px
+}
+
+.icon-incompatable {
+    background-position: -122px -598px
+}
+
+.icon-use-addressproof {
+    background-position: -360px -597px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-doc-pan {
+        background-position:-5px -5px
+    }
+
+    .icon-doc-esign {
+        background-position: -75px -75px
+    }
+
+    .icon-doc-attested {
+        background-position: -145px -75px
+    }
+
+    .icon-doc-address {
+        background-position: -5px -145px
+    }
+
+    .icon-doc-passport {
+        background-position: -75px -145px
+    }
+
+    .icon-doc-aadhaar {
+        background-position: -145px -145px
+    }
+
+    .icon-doc-licence {
+        background-position: -215px -5px
+    }
+
+    .icon-doc-voterid {
+        background-position: -215px -75px
+    }
+
+    .icon-doc-photoid {
+        background-position: -215px -145px
+    }
+
+    .icon-doc-others {
+        background-position: -75px -5px
+    }
+
+    .icon-doc-online {
+        background-position: -145px -5px
+    }
+
+    .icon-doc-manual {
+        background-position: -5px -75px
+    }
+
+    .icon-doc-hmagreement {
+        background-position: -6px -216px
+    }
+
+    .icon-doc-appfom {
+        background-position: -145px -216px
+    }
+
+    .icon-doc-elcitybill {
+        background-position: -75px -216px
+    }
+
+    .icon-doc-downall {
+        background-position: -214px -216px
+    }
+
+    .icon-doc-savingsacc {
+        background-position: -6px -286px
+    }
+
+    .icon-doc-aadhaar-best {
+        background-position: -75px -285px
+    }
+
+    .icon-doc-upload-id {
+        background-position: -145px -286px
+    }
+
+    .icon-doc-upload-esign {
+        background-position: -215px -286px
+    }
+
+    .icon-incompatable {
+        background-position: -75px -354px
+    }
+
+    .icon-digilocker {
+        background-position: -6px -354px
+    }
+
+    .icon-not-listed {
+        background-position: -145px -354px
+    }
+
+    .icon-use-addressproof {
+        background-position: -214px -355px
+    }
+}
+
+.icon-purpose1 {
+    background-position: 0 0
+}
+
+.icon-purpose2 {
+    background-position: -108px 0
+}
+
+.icon-purpose3 {
+    background-position: -216px 0
+}
+
+.icon-property-details1 {
+    background-position: 0 0
+}
+
+.icon-property-details2 {
+    background-position: -108px 0
+}
+
+.icon-property-details3 {
+    background-position: -216px 0
+}
+
+.icon-property-details4 {
+    background-position: -324px 0
+}
+
+.icon-property-details5 {
+    background-position: -432px 0
+}
+
+.icon-transaction-1 {
+    background-position: -5px -5px
+}
+
+.icon-transaction-2 {
+    background-position: -163px -5px
+}
+
+.gender-both {
+    background-position: -479px -5px;
+    width: 141px;
+    height: 251px
+}
+
+.icon-gender-female {
+    background-position: -5px -5px
+}
+
+.icon-gender-male {
+    background-position: -86px -5px
+}
+
+.co-applicant {
+    background-position: -5px -5px
+}
+
+.co-applicant-own-male {
+    background-position: -321px -5px
+}
+
+.co-applicant-own-female {
+    background-position: -163px -5px
+}
+
+.icon-applicant-father {
+    background-position: -5px -5px
+}
+
+.icon-applicant-mother {
+    background-position: -147px -5px
+}
+
+.icon-applicant-children {
+    background-position: -289px -5px
+}
+
+.icon-applicant-spouse {
+    background-position: -431px -5px
+}
+
+.icon-land-owner {
+    background-position: -5px -5px
+}
+
+.icon-gov-development {
+    background-position: -147px -5px
+}
+
+.icon-builder-developer {
+    background-position: -289px -5px
+}
+
+.sprite-home-property.icon-city-mumbai {
+    background-position: -5px -5px
+}
+
+.sprite-home-property.icon-city-chennai {
+    background-position: -147px -5px
+}
+
+.sprite-home-property.icon-city-new-delhi {
+    background-position: -289px -5px
+}
+
+.sprite-home-property.icon-city-bangalore {
+    background-position: -431px -5px
+}
+
+.sprite-home-property.icon-city-other {
+    background-position: -573px -5px
+}
+
+.sprite-home-property.icon-city-default {
+    background-position: -716px -5px
+}
+
+.icon-limit-inside {
+    background-position: -5px -5px
+}
+
+.icon-limit-outside {
+    background-position: -147px -5px
+}
+
+icon-resident-indian {
+    background-position: -5px -5px
+}
+
+.icon-nri {
+    background-position: -123px -5px
+}
+
+.icon-pio-card-holder {
+    background-position: -241px -5px
+}
+
+.icon-bornto-indian-parents {
+    background-position: -359px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-purpose1 {
+        background-position:0 0
+    }
+
+    .icon-purpose2 {
+        background-position: -60px 0
+    }
+
+    .icon-purpose3 {
+        background-position: -120px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-property-details1 {
+        background-position:0 0
+    }
+
+    .icon-property-details2 {
+        background-position: -60px 0
+    }
+
+    .icon-property-details3 {
+        background-position: -120px 0
+    }
+
+    .icon-property-details4 {
+        background-position: -180px 0
+    }
+
+    .icon-property-details5 {
+        background-position: -240px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-transaction-1 {
+        background-position:-145px -5px
+    }
+
+    .icon-transaction-2 {
+        background-position: -215px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .gender-both {
+        background-position:-215px -5px;
+        width: 67px;
+        height: 119px
+    }
+
+    .icon-gender-female {
+        background-position: -5px -5px
+    }
+
+    .icon-gender-male {
+        background-position: -49px -5px
+    }
+
+    .co-applicant {
+        background-position: -5px -5px
+    }
+
+    .co-applicant-own-female {
+        background-position: -75px -5px
+    }
+
+    .co-applicant-own-male {
+        background-position: -145px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-applicant-father {
+        background-position:-5px -5px
+    }
+
+    .icon-applicant-mother {
+        background-position: -75px -5px
+    }
+
+    .icon-applicant-children {
+        background-position: -145px -5px
+    }
+
+    .icon-applicant-spouse {
+        background-position: -215px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-land-owner {
+        background-position:-5px -5px
+    }
+
+    .icon-gov-development {
+        background-position: -75px -5px
+    }
+
+    .icon-builder-developer {
+        background-position: -145px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sprite-home-property.icon-city-mumbai {
+        background-position:-5px -5px
+    }
+
+    .sprite-home-property.icon-city-chennai {
+        background-position: -75px -5px
+    }
+
+    .sprite-home-property.icon-city-new-delhi {
+        background-position: -145px -5px
+    }
+
+    .sprite-home-property.icon-city-bangalore {
+        background-position: -215px -5px
+    }
+
+    .sprite-home-property.icon-city-other {
+        background-position: -285px -5px
+    }
+
+    .sprite-home-property.icon-city-default {
+        background-position: -354px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-limit-inside {
+        background-position:-5px -5px
+    }
+
+    .icon-limit-outside {
+        background-position: -75px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-resident-indian {
+        background-position:-5px -5px
+    }
+
+    .icon-nri {
+        background-position: -75px -5px
+    }
+
+    .icon-pio-card-holder {
+        background-position: -145px -5px
+    }
+
+    .icon-bornto-indian-parents {
+        background-position: -215px -5px
+    }
+}
+
+.icon-reg-city-yes {
+    background-position: -3px -8px;
+    width: 214px;
+    height: 244px
+}
+
+.icon-reg-city-no {
+    background-position: -247px -3px;
+    width: 165px;
+    height: 252px
+}
+
+.icon-defaulted-yes {
+    background-position: -5px 0;
+    height: 257px;
+    width: 210px
+}
+
+.icon-defaulted-no {
+    background-position: -200px -2px;
+    height: 257px;
+    width: 210px
+}
+
+.icon-bounces-yes {
+    background-position: -13px 1px;
+    width: 161px;
+    height: 263px
+}
+
+.icon-bounces-no {
+    background-position: -199px -7px;
+    width: 210px;
+    height: 248px
+}
+
+.icon-it-returns-yes {
+    background-position: -18px -8px;
+    width: 172px;
+    height: 244px
+}
+
+.icon-it-returns-no {
+    background-position: -212px -4px;
+    width: 142px;
+    height: 252px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-reg-city-yes {
+        background-position:-1px -4px;
+        width: 102px;
+        height: 113px
+    }
+
+    .icon-reg-city-no {
+        background-position: -115px -2px;
+        width: 78px;
+        height: 116px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-defaulted-yes {
+        background-position:-3px 0;
+        width: 100px;
+        height: 120px
+    }
+
+    .icon-defaulted-no {
+        background-position: -92px -2px;
+        width: 100px;
+        height: 120px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-bounces-yes {
+        background-position:-1px -3px;
+        width: 74px;
+        height: 115px
+    }
+
+    .icon-bounces-no {
+        background-position: -83px -5px;
+        width: 96px;
+        height: 111px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-it-returns-yes {
+        background-position:-2px -4px;
+        width: 81px;
+        height: 113px
+    }
+
+    .icon-it-returns-no {
+        background-position: -91px -3px;
+        width: 67px;
+        height: 115px
+    }
+}
+
+.icon-docup-bankstmt {
+    background-position: -5px -5px
+}
+
+.icon-docup-income-proof {
+    background-position: -115px -5px
+}
+
+.icon-docup-sal-bankstmt {
+    background-position: -5px -115px
+}
+
+.icon-docup-address-proof {
+    background-position: -115px -115px
+}
+
+.icon-docup-photo {
+    background-position: -225px -5px
+}
+
+.icon-docup-cancel-chq {
+    background-position: -225px -115px
+}
+
+.icon-docup-empproof {
+    background-position: -5px -225px
+}
+
+.icon-docup-incompatable {
+    background-position: -115px -225px
+}
+
+.icon-docup-signature-proof {
+    background-position: -224px -226px
+}
+
+.hover-download-done {
+    background-position: -5px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .hover-download-done {
+        background-position:-45px -5px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-docup-sal-bankstmt {
+        background-position:-5px -75px
+    }
+
+    .icon-docup-income-proof {
+        background-position: -75px -5px
+    }
+
+    .icon-docup-bankstmt {
+        background-position: -5px -5px
+    }
+
+    .icon-docup-address-proof {
+        background-position: -75px -75px
+    }
+
+    .icon-docup-photo {
+        background-position: -145px -5px
+    }
+
+    .icon-docup-cancel-chq {
+        background-position: -145px -75px
+    }
+
+    .icon-docup-empproof {
+        background-position: -5px -144px
+    }
+
+    .icon-docup-incompatable {
+        background-position: -75px -144px
+    }
+
+    .icon-docup-signature-proof {
+        background-position: -146px -145px
+    }
+}
+
+.hover-download-done {
+    background-position: -5px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .hover-download-done {
+        background-position:-45px -5px
+    }
+}
+
+.icon-guarantor-yes {
+    background-position: -13px -5px;
+    width: 192px
+}
+
+.icon-guarantor-no {
+    background-position: -230px -5px;
+    width: 71px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-guarantor-yes {
+        background-position:0 -5px;
+        width: 78px
+    }
+
+    .icon-guarantor-no {
+        background-position: -96px 5px;
+        width: 34px
+    }
+}
+
+.icon-time-more-six {
+    background-position: -5px -5px
+}
+
+.icon-time-less-six {
+    background-position: -115px -5px
+}
+
+.icon-time-never-applied {
+    background-position: -225px -5px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-time-more-six {
+        background-position:-6px -6px
+    }
+
+    .icon-time-less-six {
+        background-position: -73px -6px
+    }
+
+    .icon-time-never-applied {
+        background-position: -141px -6px
+    }
+}
+
+.icon-aadhar-pmt-adrs-yes {
+    background-position: 3px 0
+}
+
+.icon-aadhar-pmt-adrs-no {
+    background-position: -180px 0
+}
+
+.icon-aadhar-crnt-adrs-yes {
+    background-position: 3px 0
+}
+
+.icon-aadhar-crnt-adrs-no {
+    background-position: -180px 0
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-aadhar-pmt-adrs-yes {
+        background-position:-4px 0
+    }
+
+    .icon-aadhar-pmt-adrs-no {
+        background-position: -112px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-aadhar-crnt-adrs-yes {
+        background-position:-4px 0
+    }
+
+    .icon-aadhar-crnt-adrs-no {
+        background-position: -112px 0
+    }
+}
+
+.icon-carused-personal {
+    background-position: 0 0;
+    height: 240px;
+    width: 210px
+}
+
+.icon-carused-commercial {
+    background-position: -206px -2px;
+    height: 240px;
+    width: 210px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-carused-personal {
+        background-position:2px 0;
+        width: 100px;
+        height: 120px
+    }
+
+    .icon-carused-commercial {
+        background-position: -96px 0;
+        width: 100px;
+        height: 120px
+    }
+}
+
+.icon-aadhar-crnt-adrs-bank-yes {
+    background-position: 0 0
+}
+
+.icon-aadhar-crnt-adrs-bank-no {
+    background-position: -210px 0
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-aadhar-crnt-adrs-bank-yes {
+        background-position:0 0
+    }
+
+    .icon-aadhar-crnt-adrs-bank-no {
+        background-position: -102px 0
+    }
+}
+
+.icon-existing-sbi-customer-yes {
+    background-position: -8px 0;
+    height: 257px;
+    width: 175px
+}
+
+.icon-existing-sbi-customer-no {
+    background-position: -155px 0;
+    height: 257px;
+    width: 175px
+}
+
+@media only screen and (max-width: 767px) {
+    .icon-existing-sbi-customer-yes {
+        background-position:-6px 0;
+        width: 100px;
+        height: 120px
+    }
+
+    .icon-existing-sbi-customer-no {
+        background-position: -90px 0;
+        width: 100px;
+        height: 120px
+    }
+}
+
+.icon-by-bike {
+    background-position: -153px -153px!important;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle
+}
+
+.footer-social-icons .bbicons-ft-tt {
+    background-position: -84px -41px
+}
+
+.footer-social-icons .bbicons-ft-in {
+    background-position: -111px -41px
+}
+
+.footer-social-icons .bbicons-ft-fb {
+    background-position: -137px -41px
+}
+
+.footer-social-icons .bbicons-ft-gp {
+    background-position: -164px -41px
+}
+
+.footer-social-icons .bbicons-ft-instg {
+    background-position: -190px -41px
+}

@@ -44,7 +44,7 @@
   </div>
 </div>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -56,9 +56,33 @@
           <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
+
+              <div class="elig-col-two-container">
+
+                  <div class="eligcol-md-5 col-xs-5 eform-col-section">
+                      <label for="form-CREDIT_TRACKER_form_details_person_genderMale" data-actionloc=":gender" data-action="change:edit" listkey="Male" data-toggle="tooltip" class="radio checked">
+                                      <span class="sprite-gender icon-gender-male"></span>
+                  <span class="eform-info js-displayName">Male</span>    
+                  <span class="icons">
+                    <span class="first-icon fui-radio-unchecked"></span>
+                    <span class="second-icon fui-radio-checked"></span>
+                  </span>
+                  <input type="radio" data-toggle="radio" class="js-question-item validate" data-errorplacement=".js-slide-header:first" data-errroarrow="left" id="form-CREDIT_TRACKER_form_details_person_genderMale" name="form.details.person.gender" modelpath="form.details.person.gender" value="Male">
+                      </label>
+                      </div>
+
+                  <div class="eligcol-md-5 col-xs-5 eform-col-section">
+                  <label for="form-CREDIT_TRACKER_form_details_person_genderFemale" data-actionloc=":gender" data-action="change:edit" listkey="Female" data-toggle="tooltip" class="radio">
+                                  <span class="sprite-gender icon-gender-female"></span>
+              <span class="eform-info js-displayName">Female</span>    <span class="icons"><span class="first-icon fui-radio-unchecked"></span><span class="second-icon fui-radio-checked"></span></span><input type="radio" data-toggle="radio" class="js-question-item validate valid" data-errorplacement=".js-slide-header:first" data-errroarrow="left" id="form-CREDIT_TRACKER_form_details_person_genderFemale" name="form.details.person.gender" modelpath="form.details.person.gender" value="Female">
+                  </label>
+                  </div>
+              </div>
+
+
+              <!-- <h1>Example headline.</h1>
               <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
             </div>
           </div>
         </div>
